@@ -1,0 +1,121 @@
+a{
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+}
+.link-page{
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.index:hover{
+	color: black;
+}
+.index{
+	color: #8a8a8a;
+}
+.title-page{
+	color: red;
+}
+.title-page:hover{
+	color: red;
+}
+.content{
+	margin-bottom: 70px;
+}
+.login-title {
+    width: 910px;
+    margin: 50px auto 30px;
+    height: 26px;
+    line-height: 26px;
+}
+.login-other {
+	padding-right: 100px;
+    float: right;
+    margin-top: -26px;
+    color: #757575;
+}
+.button{
+	width: 100%;
+	height: 40px;
+	width: 405px;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    background-color: #f57224;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.login-col1{
+
+}
+.login-forget{
+	float: right;
+	margin-top: 10px;
+    text-align: right;
+    font-size: 12px;
+}
+.login-input{
+    width: 350px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    height: 40px;
+    line-height: 38px \0;
+    padding: 0 35px 0 10px;
+    margin-bottom: 2px;
+    outline: none;
+}
+.mod-login-btn {
+    margin: 12px 0;
+}
+.next-btn {
+    position: relative;
+    display: inline-block;
+    font-style: normal;
+    font-family: inherit;
+    background: transparent;
+    cursor: pointer;
+    transition: all .3s ease-out;
+    box-shadow: none;
+    border-radius: 2px;
+    border-style: solid;
+    text-align: center;
+}
+.next-btn-primary {
+    border-style: solid;
+    background-color: #f57224;
+    border-color: transparent;
+}
+.next-btn-primary:hover {
+    color: #fff;
+    background-color: #d0611e;
+    border-color: transparent;
+    text-decoration: none;
+}
+.next-btn-large {
+    margin: 0;
+    height: 48px;
+    padding: 0 36px;
+    font-size: 14px;
+    line-height: 46px;
+    border-width: 1px;
+}
+.mod-third-party-login-fb {
+    background: #3b5998;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+}
+.mod-third-party-login-google {
+    background: #d34836;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+}

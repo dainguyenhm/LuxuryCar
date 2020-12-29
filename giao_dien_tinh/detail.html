@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mercedes CLS 450</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <link rel="shortcut icon" type="image/png" href="images/logo.jpg" />
+
+    <link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
+    <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script>
+        new WOW().init();
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</head>
+
+<body>
+    <div id="header">
+        <div id="top-nav">
+            <div id="top-nav-content" class="container">
+                <div>
+                    <div id="left-head">
+                        <a href="#" title="chi nhánh">
+                            <span><i class="fa fa-map-marker"></i></span>
+                            <span>Chi nhánh rộng khắp</span>
+                        </a>
+                        <a href="#" style="padding-left: 10px;" title="điểm nổi bật">
+                            <span><i class="fa fa-star"></i></span>
+                            <span>Điểm nổi bật</span>
+                        </a>
+                        <a href="#" style="padding-left: 10px;" title="dịch vụ">
+                            <span><i class="fa fa-users"></i></span>
+                            <span>Dịch vụ chuyên nghiệp</span>
+                        </a>
+                    </div>
+
+                    <div id="right-head">
+                        <a href="#"><span ><i class="fab fa-facebook"></i></span></a>
+                        <a href="#"><span ><i class="fab fa-google-plus"></i></span></a>
+                        <a href="#"><span ><i class="fab fa-twitter-square"></i></i></span></a>
+                        <a href="registration.html">Đăng ký</a>
+                        <a href="login.html">Đăng nhập</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="top-nav-logo" class="container-fluid">
+        <div class="row">
+            <div class="col-md-3" style="text-align: center;width: 100%;">
+                <a href="index.html"><img src="images/logo.jpg" style="height: 90px; width: 150px;">
+                </a>
+            </div>
+            <div class="col-md-9" style="background-color: black;border-radius: 0px 0px 0px 80px;">
+                <div class="container">
+                    <div class="row" style="margin-top: 25px; ">
+                        <div class="col-md-6">
+                        </div>
+                        <div class="col-md-3">
+                            <div class="row">
+                                <img src="images/gio.png">
+                                <span style="color: white; font-size: 14px;padding-left: 7px;">
+									Giờ làm việc<br>
+									<span class="time-text" title="giờ">8:00 - 17:00</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="row">
+                                <img src="images/hotline.png">
+                                <span style="color: white; font-size: 14px;padding-left: 7px;">
+									Hotline<br>
+									<span class="time-text" title="hotline">0436 369 898</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+
+    <div id="top-nav-menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html" title="trang chủ">TRANG CHỦ</a>
+                        </li>
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="category.html" title="tìm mua ô tô">
+			          			TÌM MUA Ô TÔ
+			        		</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="category-item.html" title="mercedes">MERCEDES</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="category-item.html" title="lamborginis">LAMBORGHINIS</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="category-item.html" title="volvo">VOLVO</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="category-item.html" title="jaquar">JAQUAR</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="category-item.html" title="audi">AUDI</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="category-item.html" title="bmw">BMW</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="policy.html" title="chính sách">CHÍNH SÁCH</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="service.html" title="dịch vụ">DỊCH VỤ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="advisory.html" title="tư vấn">TƯ VẤN</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="news.html">
+			          			TIN TỨC
+			        		</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="news-car.html" title="tin xe hơi">TIN XE HƠI</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="introduce.html" title="hình ảnh">GIỚI THIỆU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+
+                    <form class="search-box">
+                            <input type="text" name="" class="search-txt" name="search" placeholder="Mời bạn nhập ..."/>
+                            <button class="search-btn"><i class="fas fa-search"></i></button>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- end nav-menu -->
+    <script src="src/jquery.spritezoom.js"></script>
+    <div id="content" class="container-fluid">
+        <div class="container-fluid" style="background: #f6f6f6; margin-top: 25px;">
+            <div class="container link-page">
+                <a href="index.html" class="index">Trang chủ</a>
+                <span>&nbsp;&rsaquo;&nbsp;</span>
+                <a href="category.html" class="index">Xe Mercedes</a>
+                <span>&nbsp;&rsaquo;&nbsp;</span>
+                <a href="" class="title-page">Mercedes CLS 450 2019</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="left-content-detail col-md-6" style="height:auto;">
+                    <div class="slide-video">
+                        <div class="play-video">
+                            <img src="" id="image" width="100%" height="315">
+                        </div>
+                        <div class="slide-image">
+                            <div class="all-image">
+                                <div class="item">
+                                    <img class="thumbnail-vd" src="images/cls1.jpg" id-video="1" />
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-vd" src="images/cls4.jpg" id-video="4" />
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-vd" src="images/cls5.jpg" id-video="5" />
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-vd" src="images/cls6.jpg" id-video="6" />
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-vd" src="images/cls7.jpg" id-video="7" />
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-vd" src="images/cls8.jpg" id-video="8" />
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-vd" src="images/cls9.jpg" id-video="9" />
+                                </div>
+                                <div class="item">
+                                    <img class="thumbnail-vd" src="images/cls10.jpg" id-video="10" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-content-detail col-md-6">
+                    <div class="title-footer" style="margin-bottom: 10px; ">
+                        <img src="images/vach_03.png">
+                        <span>Mercedes CLS 450 2019</span>
+                    </div>
+                    
+                    <div class="inf-detail">
+                        <div class="pirce-product">10.000.000.000 ₫</div>
+                        <ul class="info">
+                            <li>
+                                <span style="color: #212529;font-weight: bold;">Năm sản xuất</span>
+                                <div class="title_info">2019</div>
+                            </li>
+                            <li>
+                                <span style="color: #212529;font-weight: bold;">Tình trạng xe</span>
+                                <div class="title_info">Mới</div>
+                            </li>
+                            <li>
+                                <span style="color: #212529;font-weight: bold;">Mã số xe</span>
+                                <div class="title_info">15668</div>
+                            </li>
+                        </ul>
+                        <table class="table table-striped">
+                            <tr>
+                                <th scope="col">Xuất xứ</th>
+                                <td>Đức</td>
+                            </tr>
+                            <tr>
+                                <th scope="col">Model</th>
+                                <td>CLS 450</td>
+                            </tr>
+                            <tr>
+                                <th scope="col">Ngoại thất</th>
+                                <td>Nâu</td>
+                            </tr>
+                            <tr>
+                                <th scope="col">Hộp số</th>
+                                <td>Tự động</td>
+                            </tr>
+                        </table>
+                        <div style="width: 100%;height: auto;color: white;margin-top: 30px;margin-bottom: 20px;">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="book-car.html" class="btn btn-danger" role="button" title="Đặt ngay để sở hữu ngay chiếc xe này!!" style="padding-left: 20px;padding-right: 20px; padding-top: 10px;padding-bottom: 10px;">
+                                         <span style="font-size: 20px;">ĐẶT XE</span><br>
+                                        <span style="font-size: 15px;">(Đặt xe ngay để nhận nhiều ưu đãi)</span>
+                                    </a>  
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="#" class="btn btn-info" role="button" style="padding-left: 20px;padding-right: 20px; padding-top: 10px;padding-bottom: 10px;">
+                                         <span style="font-size: 20px;"><i class="fas fa-phone"></i> NGHE TƯ VẤN</span><br>
+                                        <span style="font-size: 15px;">Gọi ngay: 0999999999</span>
+                                    </a>  
+                                </div>
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <div id="fb-root"></div>
+                                    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v4.0&appId=479519062835494&autoLogAppEvents=1"></script>
+                                    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dặc điểm nổi bật -->
+            <div class="row" style="padding-left: 15px;" >
+                <div id="inf-ighlights">Đặc điểm nổi bật</div>
+            </div>
+            <div class="row" style="padding-top: 20px;padding-left: 15px;padding-bottom: 20px;font-size: 15px;">
+                <span>Đặc điểm nổi bật của &nbsp;</span>
+                <span style="font-weight: bold;">Mercedes CLS 450 2019</span>
+            </div>
+            <div style="border: 1px solid #eee;" >
+                <div style="text-transform: uppercase;border-left: 3px solid #c30101; padding-left: 10px;font-size: 17px;margin-top: 15px;margin-bottom: 15px;">
+                    Thông số kỹ thuật
+                </div>
+                <div>
+                    <table class="table table-striped">
+                            <tr>
+                                <th scope="col">Kích thước</th>
+                                <td>4937 x 1881 x 1418(mm)</td>
+                            </tr>
+                            <tr>
+                                <th scope="col">Chiều dài cơ sở</th>
+                                <td>2871(mm)</td>
+                            </tr>
+                            <tr>
+                                <th scope="col">Động cơ</th>
+                                <td>V6-3.0L</td>
+                            </tr>
+                            <tr>
+                                <th scope="col">Công suất cực đại</th>
+                                <td>350HP</td>
+                            </tr>
+                            <tr>
+                                <th scope="col">Dẫn động</th>
+                                <td>4 Bánh toàn thời gian</td>
+                            </tr>
+                            <tr>
+                                <th scope="col">Hộp số</th>
+                                <td>Tự động 7 cấp 7G-TRONIC</td>
+                            </tr>
+                            <tr>
+                                <th scope="col">Tăng tốc</th>
+                                <td>4s(0-100 km/h)</td>
+                            </tr>
+                            <tr>
+                                <th scope="col">Vận tốc tối đa</th>
+                                <td>300 (km/h)</td>
+                            </tr>
+                        </table>
+                </div>
+            </div>
+            <!-- Đọc thêm -->
+            <div style="margin-top: 10px; margin-bottom: 20px;">
+                    <a href="#boxnoidung" aria-expanded="false" data-toggle="collapse" class="btn btn-danger" style="background:#c30101; ">Đọc Thêm</a>
+                    <div class="collapse mt-4" id="boxnoidung">
+                        <div>
+                            <!-- AAAAA -->
+                            <div id="abody" class="cms-body"><p>Mercedes-Benz CLS 2019 vừa ra mắt tại triển lãm Los Angeles là thế hệ thứ 3 của dòng coupe 4 cửa này, kể từ khi xuất hiện lần đầu vào năm 2004.&nbsp;CLS được Mercedes nhắm tới nhóm khách hàng cần một mẫu xe sang trọng và có kích thước tương đương E-Class, nhưng sở hữu thiết kế và cảm giác lái thể thao hơn. Đã từng được Mercedes hé lộ liên tục trước thềm triển lãm và rò rỉ hình ảnh, tuy nhiên sự xuất hiện của CLS thế hệ mới vẫn khiến không ít người yêu xe cảm thấy hứng thú. </p>
+                            <div class="article-photo inlinephoto"><div class="fbShareImage"><img src="https://image.xedoisong.vn/w1024/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_1_zygn.jpg" alt="Ngỡ ngàng vẻ quyến rũ của Mercedes-Benz CLS 2019 thế hệ mới ảnh 1" class="cms-photo" data-photo-original-src="https://image.xedoisong.vn/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_1_zygn.jpg"><div class="fb-share-button fb_iframe_widget" data-href="http://xedoisong.vn/utilities/imageshare.aspx?url=https%3A%2F%2Fimage.xedoisong.vn%2Fw1024%2FUploaded%2F2019%2Fycivopcg%2F2017_12_01%2Fcls%2Fxedoisong_mercedes_cls_2019_1_zygn.jpg&amp;origin=https://xedoisong.vn/xe-moi/ngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=824003061059699&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_1_zygn.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey"><span style="vertical-align: bottom; width: 57px; height: 15px;"><iframe name="f38955793adffbc" width="1000px" height="1000px" title="fb:share_button Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.5/plugins/share_button.php?app_id=824003061059699&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df187823b4ac3178%26domain%3Dxedoisong.vn%26origin%3Dhttps%253A%252F%252Fxedoisong.vn%252Ff29af6d7418b7%26relation%3Dparent.parent&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_1_zygn.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey" style="border: none; visibility: visible; width: 57px; height: 15px;" class=""></iframe></span></div></div>
+                            </div>
+                            <div>&nbsp;Khác với khi ra mắt cách đây hơn 10 năm, CLS 2019 ra đời trong thời điểm khi Mercedes-AMG chuẩn bị tung ra chiếc siêu xe coupe GT phiên bản 4 cửa, trong khi bản thân chiếc E-Class hiện tại cũng đã có thiết kế năng động hơn rất nhiều và nội thất cao cấp, hiện đại. Tưởng chừng như bị "lu mờ" bởi 2 dòng xe trên, tuy nhiên Mercedes vẫn tiếp tục giữ CLS trong dòng sản phẩm, với thế hệ thứ 3 phản ánh "khí lực không bao giờ cũ của chiếc CLS đầu tiên", khẳng định vị trí tiên phong kiểu dáng coupe 4 cửa của chiếc xe.</div>
+                            <div class="article-photo inlinephoto"><div class="fbShareImage"><img src="https://image.xedoisong.vn/w1024/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_2_bpwf.jpg" alt="Ngỡ ngàng vẻ quyến rũ của Mercedes-Benz CLS 2019 thế hệ mới ảnh 2" class="cms-photo" data-photo-original-src="https://image.xedoisong.vn/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_2_bpwf.jpg"><div class="fb-share-button fb_iframe_widget" data-href="http://xedoisong.vn/utilities/imageshare.aspx?url=https%3A%2F%2Fimage.xedoisong.vn%2Fw1024%2FUploaded%2F2019%2Fycivopcg%2F2017_12_01%2Fcls%2Fxedoisong_mercedes_cls_2019_2_bpwf.jpg&amp;origin=https://xedoisong.vn/xe-moi/ngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=824003061059699&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_2_bpwf.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey"><span style="vertical-align: bottom; width: 57px; height: 15px;"><iframe name="fdd2e68108d33c" width="1000px" height="1000px" title="fb:share_button Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.5/plugins/share_button.php?app_id=824003061059699&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df35c3de2a5d74e8%26domain%3Dxedoisong.vn%26origin%3Dhttps%253A%252F%252Fxedoisong.vn%252Ff29af6d7418b7%26relation%3Dparent.parent&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_2_bpwf.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey" style="border: none; visibility: visible; width: 57px; height: 15px;" class=""></iframe></span></div></div>
+                            </div>
+                            <div>&nbsp;Về thiết kế, có thể nói CLS hoàn toàn mới là sự tổng hợp của ngôn ngữ thiết kế Sensual Purity, siêu xe AMG GT và "phom" của các thế hệ trước. Mối liên hệ giữa CLS 2019 và AMG GT được thể hiện rõ ở lưới tản nhiệt dạng Panamericana với logo sao 3 cánh lớn, nằm bên là các đèn LED gợi cảm giác về chiều sâu và bóng đèn tựa như pha lê. Vị trí đặt đèn pha và hộp đèn hình tứ giác, kéo nhỏ về phía hai bên nhấn mạnh tới bề rộng của chiếc xe.</div>
+                            <div class="article-photo inlinephoto"><div class="fbShareImage"><img src="https://image.xedoisong.vn/w1024/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_3_foof.jpg" alt="Ngỡ ngàng vẻ quyến rũ của Mercedes-Benz CLS 2019 thế hệ mới ảnh 3" class="cms-photo" data-photo-original-src="https://image.xedoisong.vn/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_3_foof.jpg"><div class="fb-share-button fb_iframe_widget" data-href="http://xedoisong.vn/utilities/imageshare.aspx?url=https%3A%2F%2Fimage.xedoisong.vn%2Fw1024%2FUploaded%2F2019%2Fycivopcg%2F2017_12_01%2Fcls%2Fxedoisong_mercedes_cls_2019_3_foof.jpg&amp;origin=https://xedoisong.vn/xe-moi/ngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=824003061059699&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_3_foof.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey"><span style="vertical-align: bottom; width: 57px; height: 15px;"><iframe name="f168b6971d456fc" width="1000px" height="1000px" title="fb:share_button Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.5/plugins/share_button.php?app_id=824003061059699&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df23b3b3b7452e2c%26domain%3Dxedoisong.vn%26origin%3Dhttps%253A%252F%252Fxedoisong.vn%252Ff29af6d7418b7%26relation%3Dparent.parent&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_3_foof.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey" style="border: none; visibility: visible; width: 57px; height: 15px;" class=""></iframe></span></div></div>
+                            </div>
+                            <div>Giống như các dòng coupe khác của Mercedes, CLS có phần đuôi tinh tế, năng động với cặp đèn hậu LED hẹp và thuôn về hai bên. Hốc biển số được chuyển xuống dưới cản sau để tối giản nắp khoang hành lý, dồn sự chú ý vào logo sao 3 cánh. Vòm mui cong đều về phía sau theo phong cách coupe và đường bờ vai dập nổi đặt cao là những chi tiết mang tính biểu tượng của CLS ngay từ thế hệ đầu tiên.</div>
+                            <div class="article-photo inlinephoto"><div class="fbShareImage"><img src="https://image.xedoisong.vn/w1024/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_4_gbpc.jpg" alt="Ngỡ ngàng vẻ quyến rũ của Mercedes-Benz CLS 2019 thế hệ mới ảnh 4" class="cms-photo" data-photo-original-src="https://image.xedoisong.vn/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_4_gbpc.jpg"><div class="fb-share-button fb_iframe_widget" data-href="http://xedoisong.vn/utilities/imageshare.aspx?url=https%3A%2F%2Fimage.xedoisong.vn%2Fw1024%2FUploaded%2F2019%2Fycivopcg%2F2017_12_01%2Fcls%2Fxedoisong_mercedes_cls_2019_4_gbpc.jpg&amp;origin=https://xedoisong.vn/xe-moi/ngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=824003061059699&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_4_gbpc.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey"><span style="vertical-align: bottom; width: 57px; height: 15px;"><iframe name="f33be7cedb3c3cc" width="1000px" height="1000px" title="fb:share_button Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.5/plugins/share_button.php?app_id=824003061059699&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df13ecf6cda86d24%26domain%3Dxedoisong.vn%26origin%3Dhttps%253A%252F%252Fxedoisong.vn%252Ff29af6d7418b7%26relation%3Dparent.parent&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_4_gbpc.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey" style="border: none; visibility: visible; width: 57px; height: 15px;" class=""></iframe></span></div></div>
+                            </div>
+                            <div>&nbsp;Ở bên trong nội thất, thiết kế của CLS thế hệ mới được chia sẻ từ E-Class. Giống như nhiều dòng xe khác của Mercedes, chiếc xe cũng có bảng đồng hồ kỹ thuật số nối liền với màn hình lớn trên những model cao cấp nhất. Cabin xe được chiếu sáng bởi hệ thống đèn LED thay đổi 64 màu tùy theo tâm trạng lắp ở khắp các chi tiết bên trong nội thất - bao gồm cả các khe gió điều hòa. </div>
+                            <div class="article-photo inlinephoto"><div class="fbShareImage"><img src="https://image.xedoisong.vn/w1024/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_5_koal.jpg" alt="Ngỡ ngàng vẻ quyến rũ của Mercedes-Benz CLS 2019 thế hệ mới ảnh 5" class="cms-photo" data-photo-original-src="https://image.xedoisong.vn/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_5_koal.jpg"><div class="fb-share-button fb_iframe_widget" data-href="http://xedoisong.vn/utilities/imageshare.aspx?url=https%3A%2F%2Fimage.xedoisong.vn%2Fw1024%2FUploaded%2F2019%2Fycivopcg%2F2017_12_01%2Fcls%2Fxedoisong_mercedes_cls_2019_5_koal.jpg&amp;origin=https://xedoisong.vn/xe-moi/ngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=824003061059699&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_5_koal.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey"><span style="vertical-align: bottom; width: 57px; height: 15px;"><iframe name="f30006e459b3088" width="1000px" height="1000px" title="fb:share_button Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.5/plugins/share_button.php?app_id=824003061059699&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df2173838242330c%26domain%3Dxedoisong.vn%26origin%3Dhttps%253A%252F%252Fxedoisong.vn%252Ff29af6d7418b7%26relation%3Dparent.parent&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_5_koal.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey" style="border: none; visibility: visible; width: 57px; height: 15px;" class=""></iframe></span></div></div>
+                            </div>
+                            <div>&nbsp;Không chỉ có thiết kế giống E-Class, CLS thế hệ thứ 3 cũng lần đầu tiên có 5 chỗ ngồi, thay vì chỉ 4 chỗ như các thế hệ trước. Hàng ghế sau của xe cũng có lưng ghế với khả năng gập 40/20/40 để nâng thể tích khoang hành lý vượt quá con số 520 lít. Có vẻ như Mercedes đang định nhường vị trí "xe chơi" dáng coupe 4 cửa với siêu xe AMG GT sắp tới, trong khi đưa CLS thế hệ mới theo hướng tiện dụng hơn cho cuộc sống hàng ngày.</div>
+                            <div class="article-photo inlinephoto"><div class="fbShareImage"><img src="https://image.xedoisong.vn/w1024/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_6_yxvy.jpg" alt="Ngỡ ngàng vẻ quyến rũ của Mercedes-Benz CLS 2019 thế hệ mới ảnh 6" class="cms-photo" data-photo-original-src="https://image.xedoisong.vn/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_6_yxvy.jpg"><div class="fb-share-button fb_iframe_widget" data-href="http://xedoisong.vn/utilities/imageshare.aspx?url=https%3A%2F%2Fimage.xedoisong.vn%2Fw1024%2FUploaded%2F2019%2Fycivopcg%2F2017_12_01%2Fcls%2Fxedoisong_mercedes_cls_2019_6_yxvy.jpg&amp;origin=https://xedoisong.vn/xe-moi/ngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=824003061059699&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_6_yxvy.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey"><span style="vertical-align: bottom; width: 57px; height: 15px;"><iframe name="f1f3f5c8fdf16b4" width="1000px" height="1000px" title="fb:share_button Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.5/plugins/share_button.php?app_id=824003061059699&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df28d0b5f346a1%26domain%3Dxedoisong.vn%26origin%3Dhttps%253A%252F%252Fxedoisong.vn%252Ff29af6d7418b7%26relation%3Dparent.parent&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_6_yxvy.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey" style="border: none; visibility: visible; width: 57px; height: 15px;" class=""></iframe></span></div></div>
+                            </div>
+                            <p>
+                            Một loạt các công nghệ an toàn tiên tiến cũng đã được Mercedes "mượn" từ S-Class để đưa xuống cho CLS, bao gồm: hệ thống hỗ trợ phanh chủ động, hỗ trợ giữ làn, chống tài xế xao nhãng, kiểm soát tốc độ tối đa cho phép... Tất cả đều được trang bị sẵn trên mọi phiên bản của xe. Với gói tùy chọn Driving Assistance Package, khách hàng sẽ có thêm các hệ thống như tự động giữ khoảng cách với xe đi phía trước, vô-lăng chủ động, tự động giữ tốc độ cho phép, phanh tự động chủ động, vô-lăng tự đánh lái tránh tai nạn...</p>
+                            <div class="article-photo inlinephoto"><div class="fbShareImage"><img src="https://image.xedoisong.vn/w1024/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_7_hhjr.jpg" alt="Ngỡ ngàng vẻ quyến rũ của Mercedes-Benz CLS 2019 thế hệ mới ảnh 7" class="cms-photo" data-photo-original-src="https://image.xedoisong.vn/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_7_hhjr.jpg"><div class="fb-share-button fb_iframe_widget" data-href="http://xedoisong.vn/utilities/imageshare.aspx?url=https%3A%2F%2Fimage.xedoisong.vn%2Fw1024%2FUploaded%2F2019%2Fycivopcg%2F2017_12_01%2Fcls%2Fxedoisong_mercedes_cls_2019_7_hhjr.jpg&amp;origin=https://xedoisong.vn/xe-moi/ngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=824003061059699&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_7_hhjr.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey"><span style="vertical-align: bottom; width: 57px; height: 15px;"><iframe name="fd4efe2791980c" width="1000px" height="1000px" title="fb:share_button Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.5/plugins/share_button.php?app_id=824003061059699&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df1b961ecad26c%26domain%3Dxedoisong.vn%26origin%3Dhttps%253A%252F%252Fxedoisong.vn%252Ff29af6d7418b7%26relation%3Dparent.parent&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_7_hhjr.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey" style="border: none; visibility: visible; width: 57px; height: 15px;" class=""></iframe></span></div></div>
+                            </div>
+                            <div>&nbsp;Không chỉ đẹp mắt, sang trọng và tiện dụng hơn, CLS thế hệ mới còn sở hữu hiệu năng cao hơn với 2 lựa chọn động cơ mới, được chia ra thành 3 model là CLS  350d 4MATIC, CLS 400d 4MATIC và CLS 450 4MATIC. Trong đó, phiên bản động cơ xăng duy nhất là CLS 450 4MATIC sở hữu máy 6 xi-lanh thẳng hàng 3.0l cho công suất 362 mã lực và mô-men xoắn 500Nm. Đây là một phiên bản hybrid "hạng nhẹ" (mild hybrid), đồng nghĩa với việc chiếc xe sẽ có thêm một mô-tơ điện nhỏ để trợ lực khi cần thiết.</div>
+                            <div class="article-photo inlinephoto"><div class="fbShareImage"><img src="https://image.xedoisong.vn/w1024/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_8_lsju.jpg" alt="Ngỡ ngàng vẻ quyến rũ của Mercedes-Benz CLS 2019 thế hệ mới ảnh 8" class="cms-photo" data-photo-original-src="https://image.xedoisong.vn/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_8_lsju.jpg"><div class="fb-share-button fb_iframe_widget" data-href="http://xedoisong.vn/utilities/imageshare.aspx?url=https%3A%2F%2Fimage.xedoisong.vn%2Fw1024%2FUploaded%2F2019%2Fycivopcg%2F2017_12_01%2Fcls%2Fxedoisong_mercedes_cls_2019_8_lsju.jpg&amp;origin=https://xedoisong.vn/xe-moi/ngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=824003061059699&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_8_lsju.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey"><span style="vertical-align: bottom; width: 57px; height: 15px;"><iframe name="f28a9052a11c05" width="1000px" height="1000px" title="fb:share_button Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.5/plugins/share_button.php?app_id=824003061059699&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df30ef05f8313894%26domain%3Dxedoisong.vn%26origin%3Dhttps%253A%252F%252Fxedoisong.vn%252Ff29af6d7418b7%26relation%3Dparent.parent&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_8_lsju.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey" style="border: none; visibility: visible; width: 57px; height: 15px;" class=""></iframe></span></div></div>
+                            </div>
+                            <div>Được Mercedes gọi là EQ Boost, động cơ điện sẽ giúp chiếc xe tăng têm 21 mã lực và mô-men xoắn 250Nm. Với hệ dẫn động 4 bánh 4MATIC, CLS 450 4MATIC chỉ mất 4,8 giây để đạt 0-100km/h, trong khi mức tiêu thụ nhiên liệu trung bình chỉ khoảng 5,6l/100km. Công nghệ EQ Boost trong tương lai sẽ còn xuất hiện ở phiên bản hiệu năng cao hạng trung CLS 53 AMG, dự đoán sẽ vẫn dùng động cơ 6 xi-lanh nhưng có thể đạt tổng công suất 429 mã lực.</div>
+                            <div class="article-photo inlinephoto"><div class="fbShareImage"><img src="https://image.xedoisong.vn/w1024/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_9_fxen.jpg" alt="Ngỡ ngàng vẻ quyến rũ của Mercedes-Benz CLS 2019 thế hệ mới ảnh 9" class="cms-photo" data-photo-original-src="https://image.xedoisong.vn/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_9_fxen.jpg"><div class="fb-share-button fb_iframe_widget" data-href="http://xedoisong.vn/utilities/imageshare.aspx?url=https%3A%2F%2Fimage.xedoisong.vn%2Fw1024%2FUploaded%2F2019%2Fycivopcg%2F2017_12_01%2Fcls%2Fxedoisong_mercedes_cls_2019_9_fxen.jpg&amp;origin=https://xedoisong.vn/xe-moi/ngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=824003061059699&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_9_fxen.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey"><span style="vertical-align: bottom; width: 57px; height: 15px;"><iframe name="f4444e16c3a4b" width="1000px" height="1000px" title="fb:share_button Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.5/plugins/share_button.php?app_id=824003061059699&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df278c9eff952408%26domain%3Dxedoisong.vn%26origin%3Dhttps%253A%252F%252Fxedoisong.vn%252Ff29af6d7418b7%26relation%3Dparent.parent&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_9_fxen.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey" style="border: none; visibility: visible; width: 57px; height: 15px;" class=""></iframe></span></div></div>
+                            </div>
+                            <div>Lựa chọn động cơ diesel duy nhất của CLS cũng có dạng 6 xi-lanh thẳng hàng 3.0l, nhưng có 2 mức hiệu năng khác nhau. Trên phiên bản CLS 400d, động cơ này tạo ra 335 mã lực/700Nm và giảm xuống còn 282 mã lực/600Nm trên bản CLS 350d. Cả 2 đều có mức tiêu thụ nhiên liệu chỉ 5,6l/100Km, tuy nhiên khác nhau ở thời gian tăng tốc từ 0-100Km/h lần lượt là 5 và 5,7 giây.</div>
+                            <p>
+                            </p><div class="article-photo inlinephoto"><div class="fbShareImage"><img src="https://image.xedoisong.vn/w1024/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_10_tvxq.jpg" alt="Ngỡ ngàng vẻ quyến rũ của Mercedes-Benz CLS 2019 thế hệ mới ảnh 10" class="cms-photo" data-photo-original-src="https://image.xedoisong.vn/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_10_tvxq.jpg"><div class="fb-share-button fb_iframe_widget" data-href="http://xedoisong.vn/utilities/imageshare.aspx?url=https%3A%2F%2Fimage.xedoisong.vn%2Fw1024%2FUploaded%2F2019%2Fycivopcg%2F2017_12_01%2Fcls%2Fxedoisong_mercedes_cls_2019_10_tvxq.jpg&amp;origin=https://xedoisong.vn/xe-moi/ngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=824003061059699&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_10_tvxq.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey"><span style="vertical-align: bottom; width: 57px; height: 15px;"><iframe name="f386f55a40e0a2c" width="1000px" height="1000px" title="fb:share_button Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.5/plugins/share_button.php?app_id=824003061059699&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df2e2c0b9bc9952c%26domain%3Dxedoisong.vn%26origin%3Dhttps%253A%252F%252Fxedoisong.vn%252Ff29af6d7418b7%26relation%3Dparent.parent&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_10_tvxq.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey" style="border: none; visibility: visible; width: 57px; height: 15px;" class=""></iframe></span></div></div>
+                            </div>
+                            <div>&nbsp;Hiện tại, Mercedes chưa công bố giá bán cho CLS 2019. Tuy nhiên trên Thế giới, chiếc xe sẽ được bắt đầu bán tại các thị trường đầu tiên kể từ tháng 3/2018 và tại Mỹ vào mùa thu năm sau.</div>
+                            <div class="article-photo inlinephoto"><div class="fbShareImage"><img src="https://image.xedoisong.vn/w1024/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_11_ftqm.jpg" alt="Ngỡ ngàng vẻ quyến rũ của Mercedes-Benz CLS 2019 thế hệ mới ảnh 11" class="cms-photo" data-photo-original-src="https://image.xedoisong.vn/Uploaded/2019/ycivopcg/2017_12_01/cls/xedoisong_mercedes_cls_2019_11_ftqm.jpg"><div class="fb-share-button fb_iframe_widget" data-href="http://xedoisong.vn/utilities/imageshare.aspx?url=https%3A%2F%2Fimage.xedoisong.vn%2Fw1024%2FUploaded%2F2019%2Fycivopcg%2F2017_12_01%2Fcls%2Fxedoisong_mercedes_cls_2019_11_ftqm.jpg&amp;origin=https://xedoisong.vn/xe-moi/ngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=824003061059699&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_11_ftqm.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey"><span style="vertical-align: bottom; width: 57px; height: 15px;"><iframe name="fbe022f39614f" width="1000px" height="1000px" title="fb:share_button Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.5/plugins/share_button.php?app_id=824003061059699&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Dfa4464380e625%26domain%3Dxedoisong.vn%26origin%3Dhttps%253A%252F%252Fxedoisong.vn%252Ff29af6d7418b7%26relation%3Dparent.parent&amp;container_width=10&amp;href=http%3A%2F%2Fxedoisong.vn%2Futilities%2Fimageshare.aspx%3Furl%3Dhttps%253A%252F%252Fimage.xedoisong.vn%252Fw1024%252FUploaded%252F2019%252Fycivopcg%252F2017_12_01%252Fcls%252Fxedoisong_mercedes_cls_2019_11_ftqm.jpg%26origin%3Dhttps%3A%2F%2Fxedoisong.vn%2Fxe-moi%2Fngo-ngang-ve-quyen-ru-cua-mercedesbenz-cls-2019-the-he-moi-22747.html&amp;locale=vi_VN&amp;sdk=joey" style="border: none; visibility: visible; width: 57px; height: 15px;" class=""></iframe></span></div></div>
+                            </div>
+                            <div>&nbsp;</div>
+                            <p></p>
+                            <br></div>
+                            <!-- AAAAA -->
+                        </div>
+                    </div>
+            </div>
+            <!-- Nhận xét -->
+            <!-- <div class="row" style="height: auto;margin-bottom: 30px;" >
+                <div class="col-md-12" style="padding: 0px;">
+                    <div class="row" style="padding-left: 15px;">
+                        <div id="inf-ighlights" style="width: auto;">Đánh giá - Bình luận</div>
+                    </div>
+                    <div style="border: 1px solid #eee;background: #F7F7F7;width: 100%;padding-top: 40px;padding: 20px;margin-right: 0px;">
+                        <div class="col-md-2"><span style="font-weight: bold;">Nhận xét và đánh giá</span></div>
+                        <div class="col-md-1">
+                            <div class="starrating risingstar d-flex  flex-row-reverse">
+                                <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="5 star"></label>
+                                <input type="radio" id="star4" name="rating" value="4" checked="true" /><label for="star4" title="4 star"></label>
+                                <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="3 star"></label>
+                                <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="2 star"></label>
+                                <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="1 star"></label>
+                            </div>
+                        </div>
+                        <form class="row" style="width: 100%;">
+                            <div class="col-md-6" style="width: 100%;">
+                                <textarea id="comment" placeholder="Viết bình luận của bạn..."></textarea>
+                            </div>
+                            <div class="col-md-6">
+                                <input class="input-comment" type="text" name="txtname" placeholder="Họ tên (bắt buộc)" style="margin-bottom: 5px;"><br>
+                                <input class="input-comment" type="text" name="txtEmail" placeholder="Email" style="margin-bottom: 5px;"><br>
+                                <input type="submit" name="btnSub" class="btn btn-danger" style="background:#c30101;" value="Gửi bình luận" >
+                            </div>    
+                        </form>
+                        <div>
+                             
+                            <div id="fb-root"></div>
+                            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v4.0&appId=479519062835494&autoLogAppEvents=1"></script>
+
+                             
+                            <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="1100" data-numposts="5"></div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- Sản phẩm tương tự -->
+            <div class="row" style="height: auto;margin-bottom: 30px;">
+                <div id="inf-ighlights">Sản phẩm tương tự</div>
+                <div style="border: 1px solid #eee;background: #F7F7F7;width: 100%;padding-top: 40px;padding: 20px;">
+                    <div class="row" style="width: 100%;">
+                        <div class="col-md-3 product">
+                            <div class="product-item">
+                                <div class="img-product">
+                                    <a href="detail.html">
+                                        <img class="img-product-item" src="images/img1.jpg">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="detail.html">
+                                        <span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Lamborghini Huracan LP 610-4</span><br>
+                                    </a>
+                                    <span style="color: red">10.000.000.000 ₫</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product">
+                            <div class="product-item">
+                                <div class="img-product">
+                                    <a href="detail.html">
+                                        <img class="img-product-item" src="images/img1.jpg">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="detail.html">
+                                            <span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Lamborghini Huracan LP 610-4</span><br>
+                                    </a>
+                                    <span style="color: red">10.000.000.000 ₫</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product">
+                            <div class="product-item">
+                                <div class="img-product">
+                                    <a href="detail.html">
+                                        <img class="img-product-item" src="images/img1.jpg">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="detail.html">
+                                            <span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Lamborghini Huracan LP 610-4</span><br>
+                                    </a>
+                                    <span style="color: red">10.000.000.000 ₫</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product">
+                            <div class="product-item">
+                                <div class="img-product">
+                                    <a href="detail.html">
+                                        <img class="img-product-item" src="images/img1.jpg">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="detail.html">
+                                        <span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Lamborghini Huracan LP 610-4</span><br>
+                                    </a>
+                                    <span style="color: red">10.000.000.000 ₫</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>    
+            <!--  -->
+    </div>    
+    <script type="text/javascript">
+        document.getElementById("image").setAttribute("src", "images/cls1.jpg");
+        /* xu ly su kien khi click vao 1 trong cac video trong slide ben duoi */
+        var btn = document.getElementsByClassName("thumbnail-vd");
+        for (i = 0; i < btn.length; i++) {
+            btn[i].addEventListener("click", function() {
+                var id = this.getAttribute("id-video");
+                document.getElementById("image").setAttribute("src", "images/cls" + id + ".jpg");
+            });
+        }
+    </script>
+    <!-- end content -->
+
+    <div id="footer" class="container-fluid">
+        <div class="container-fluid" id="footer-link">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="title-footer">
+                            <img src="images/vach_03.png">
+                            <span>LUXURY CAR</span>
+                        </div>
+                        <ul id="top-botton">
+                            <li class="icon">
+                                <img class="item-icon" src="images/home.png">
+                                <span class="title-icon">VĂN PHÒNG</span>
+                                <div style="padding-left:30px; ">
+                                    Add: Số 17 Trung Yên 12-Cầu Giấy-Hà Nội
+                                    <div id="hotline">
+                                        <a class="hotline-item" href="tel:0436 396 898" title="Call now">Hotline: 0436 396 898 - </a>
+                                        <a class="hotline-item" href="tel:01269 688 688" title="Call now">01269 688 688</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="icon">
+                                <img class="item-icon" src="images/place.png">
+                                <span class="title-icon">CHI NHÁNH</span>
+                                <div style="padding-left: 30px">Chúng tôi đang mở thêm chi nhánh ở TP Hồ Chí Minh và Đà Nẵng</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- luxury car -->
+                    <div class="col-md-4">
+                        <div class="title-footer">
+                            <img src="images/vach_03.png">
+                            <span>TIN NỔI BẬT</span>
+                        </div>
+                        <div class="news-item row">
+                            <div class="library-item col-md-4" style="height: 100px; width: 90%;padding: 0px;">
+                                <a href="news-item.html" title="Lexus LC Convertible Concept: Còn chờ gì nữa hỡi Lexus?">
+                                    <img class="news-img" src="http://thegioixehoi.delectech.vn/images/news/2019/01/12/resized/lexus-lc-convertible-concept-2-15472075478571522911135-crop-15472077540312137910_1547319275.jpg" alt="Lexus LC Convertible Concept: Còn chờ gì nữa hỡi Lexus?">
+                                </a>
+                            </div>
+                            <div class="library-item col-md-6" style="height: 100px; width: 100%;padding: 0px;">
+                                <a href="news-item.html" class="title-news">Lexus LC Convertible Concept: Còn chờ gì...<br></a>
+                                <span class="date">
+									<span style="color: red;">
+										<img class="news-icon" src="images/clock.png">1/1/2019
+									</span>
+                                <span style="color: red;">
+										<img class="news-icon" src="images/chat.png">1 Bình luận
+									</span>
+                                </span>
+                            </div>
+
+                            <div class="library-item col-md-4" style="height: 100px; width: 90%;padding: 0px;">
+                                <a href="news-item.html" title="Lexus LC Convertible Concept: Còn chờ gì nữa hỡi Lexus?">
+                                    <img class="news-img" src="http://thegioixehoi.delectech.vn/images/news/2019/01/12/resized/lexus-lc-convertible-concept-2-15472075478571522911135-crop-15472077540312137910_1547319275.jpg" alt="Lexus LC Convertible Concept: Còn chờ gì nữa hỡi Lexus?">
+                                </a>
+                            </div>
+                            <div class="library-item col-md-6" style="height: 100px; width: 100%;padding: 0px;">
+                                <a href="news-item.html" class="title-news">Lexus LC Convertible Concept: Còn chờ gì...<br></a>
+                                <span class="date">
+									<span style="color: red;">
+										<img class="news-icon" src="images/clock.png">1/1/2019
+									</span>
+                                <span style="color: red;">
+										<img class="news-icon" src="images/chat.png">1 Bình luận
+									</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- tin nổi bật -->
+
+                    <div class="col-md-4">
+                        <div class="title-footer">
+                            <img src="images/vach_03.png">
+                            <span>THƯ VIỆN ẢNH</span>
+                        </div>
+                        <div class="row">
+                            <div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+                                <img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+                            </div>
+                            <div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+                                <img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+                            </div>
+                            <div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+                                <img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+                            </div>
+                            <div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+                                <img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+                            </div>
+                            <div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+                                <img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+                            </div>
+                            <div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+                                <img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+                            </div>
+                            <div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+                                <img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+                            </div>
+                            <div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+                                <img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- thư viện ảnh -->
+            </div>
+        </div>
+    </div>
+    <div id="booton-footer" class="container-fluid">
+       <ul id="quick-nav-footer">
+            <li><a href="index.html" title="Trang chủ">TRANG CHỦ</a></li>
+            <li><a href="category.html" title="Tìm mua ô tô">TÌM MUA Ô TÔ</a></li>
+            <li><a href="policy.html" title="Ch sách">CHÍNH SÁCH</a></li>
+            <li><a href="advisory.html" title="Tư vấn">TƯ VẤN</a></li>
+            <li><a href="service.html" title="Dịch vụ">DỊCH VỤ</a></li>
+            <li><a href="contact.html" title="Liên hệ">LIÊN HỆ</a></li>
+        </ul>
+    </div>
+    <!-- bootom-nav-menu -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img style="width: 20px;height:20px;top: 5px;" src="images/chevron-up.png">
+    </button>
+    <!-- end footer -->
+</body>
+
+</html>

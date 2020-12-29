@@ -1,0 +1,161 @@
+
+a:hover{
+	text-decoration: none;
+}
+
+/*end path*/
+
+.view-more a{
+	color:  #a9a8a8;
+}
+.view-more a:hover{
+	background-color: #e60000;
+	color: #ffffff;
+}
+
+.view-more button:hover{
+	background-color: #e60000;
+	color: #ffffff;
+}
+
+.pagination a{
+	color: #828282;
+}
+
+.pagination a:hover{
+	background-color: #e60000;
+	color: #ffffff;
+}
+
+.pagination button:hover{
+	background-color: #e60000;
+	color: #ffffff;
+}
+/*news-item.html*/
+.news-item-title{
+	margin-top: 30px;
+	color: #000000;
+	font-size: 20px;
+	margin-bottom: 6px;
+}
+
+.news-item-summary{
+	color: #888888;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.news-item-content p{
+	color: #888888;
+	margin-bottom: 30px;
+}
+/*tags*/
+.tags {
+	background-color: #efefef;
+	padding: 7px 20px;
+    font-size: 14px;
+    font-style: italic;
+    margin-right: 15px;
+    font-weight: bold;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+.news-item-tags span a{
+	background: #EFEFEF;
+    padding: 7px 20px;
+    line-height: 40px;
+    margin-right: 11px;
+}
+
+.news-item-tags a{
+	color: #333;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.news-item-tags a:hover{
+	color: #e60000;
+}
+/*share*/
+.search-result{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.search-result span{
+	color: #333;
+	font-weight: bold;
+}
+
+.share{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.share span{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: 
+}
+
+.share ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.share ul li{
+	display: inline-block;
+	padding-right: 10px;
+	line-height: 30px;
+}
+.share-link-fb{
+	width: 80px;
+	text-align: center;
+	background-color: #3b5a99;
+}
+.share-link-fb a, .share-link-gl a{
+	color: #ffffff
+}
+
+.share-link-gl{
+	width: 80px;
+	text-align: center;
+	background-color: #ce3633;
+}
+
+/*comment*/
+.comment{
+	margin-top: 30px;
+}
+.block-comment{
+	color: #e60000;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 1px solid #e60000;
+	font-size: 18px;
+}
+
+.block-comment-1{
+	color: #505050;
+	font-weight: bold;
+}
+
+.block-click-star{
+	color: #e60000;
+	font-size: 10;
+	font-style: italic;
+}
+.send-comment{
+	margin-bottom: 15px;
+	padding-bottom: 30px;
+}
+
+
+/*.rate_head span.star.star-on{
+	color: #FF9727;
+}*/
+/*plugins-comment*/
+.plugins-comment{
+	margin-bottom: 30px;
+}

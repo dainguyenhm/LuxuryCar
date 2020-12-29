@@ -1,0 +1,59 @@
+#book-car{
+	background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, 
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, 
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, 
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, 
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px), 
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);background-color: #131313;background-size: 20px 20px;
+width: 100%;
+height: auto;
+margin-bottom: 50px;
+padding-bottom: 20px;
+font-size: 15px;
+}
+#title-book-car{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	color:  #cc0000;
+}
+.input-book{
+	color: white;
+	border: 1px solid #e000;
+	background: rgba(255, 255, 255, 0.13);
+    border-bottom: 2px solid #E00000;
+    margin-top: 6px
+    margin-bottom: 10px;
+    outline-style: none;
+    border-radius: 5px;
+}
+.input-book-car{
+	margin-top:7px;
+	margin-bottom: 7px;
+    padding: 7px;
+    width:100%;
+}
+.textarea-comment{
+	color: white;
+	border: 1px solid #e000;
+	background: rgba(255, 255, 255, 0.13);
+    border-bottom: 2px solid #E00000;
+    margin-top: 6px
+    margin-bottom: 10px;
+    outline-style: none;
+    border-radius: 5px;
+}
+.textarea-comment-car{
+	margin-top:7px;
+	margin-bottom: 7px;
+    padding: 7px;
+    width: 100%;
+}
+
+.book-car ul li{
+	list-style-type: none;
+}

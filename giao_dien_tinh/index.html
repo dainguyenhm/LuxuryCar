@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trang chủ</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />	
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+	<link rel="shortcut icon" type="image/png" href="images/logo.jpg"/>
+
+	<link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
+	<script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+	
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<script>
+		new WOW().init();
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    document.getElementById("myBtn").style.display = "block";
+		  } else {
+		    document.getElementById("myBtn").style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+	</script>
+</head>
+<body>
+	<div id="header">
+		<div id="top-nav">
+			<div id="top-nav-content" class="container"> 
+				<div>
+					<div id="left-head">
+						<a href="#" title="chi nhánh">
+							<span><i class="fa fa-map-marker"></i></span>
+							<span>Chi nhánh rộng khắp</span>
+						</a>
+						<a href="#" style="padding-left: 10px;" title="điểm nổi bật">
+							<span><i class="fa fa-star"></i></span>
+							<span>Điểm nổi bật</span>
+						</a>
+						<a href="#" style="padding-left: 10px;" title="dịch vụ">
+							<span><i class="fa fa-users"></i></span>
+							<span>Dịch vụ chuyên nghiệp</span>
+						</a>
+					</div>
+
+					<div id="right-head">
+						<a href="#" ><span ><i class="fab fa-facebook"></i></span></a>
+						<a href="#" ><span ><i class="fab fa-google-plus"></i></span></a>
+						<a href="#" ><span ><i class="fab fa-twitter-square"></i></i></span></a>
+						<a href="registration.html">Đăng ký</a>
+						<a href="login.html">Đăng nhập</a>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<div id="top-nav-logo" class="container-fluid">
+		<div class="row">
+			<div class="col-md-3" style="text-align: center;width: 100%;">
+					<a href="#"><img src="images/logo.jpg" style="height: 90px; width: 150px;"></a>
+			</div>
+			<div class="col-md-9" style="background-color: black;border-radius: 0px 0px 0px 80px;">
+				<div class="container">
+					<div class="row" style="margin-top: 25px; ">
+						<div class="col-md-6">
+						</div>
+						<div class="col-md-3"> 	
+							<div class="row">
+								<img src="images/gio.png">
+								<span style="color: white; font-size: 14px;padding-left: 7px;">
+									Giờ làm việc<br>
+									<span class="time-text" title="giờ">8:00 - 17:00</span>
+								</span>
+							</div>
+						</div>
+						<div class="col-md-3"> 
+							<div class="row">
+								<img src="images/hotline.png">
+								<span style="color: white; font-size: 14px;padding-left: 7px;">
+									Hotline<br>
+									<span class="time-text" title="hotline">0436 369 898</span>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end header -->
+
+	<div id="top-nav-menu">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+	  		<div class="container">
+	  			<div class="row">
+	  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			   		 	<span class="navbar-toggler-icon"></span>
+			 		</button>
+
+				  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				   		<ul class="navbar-nav mr-auto">
+				      		<li class="nav-item active"> 
+				        		<a class="nav-link" href="index.html" title="trang chủ">TRANG CHỦ</a>
+				      		</li>
+				      		<li class="nav-item dropdown">
+				        		<a class="nav-link dropdown-toggle" href="category.html" title="tìm mua ô tô">
+				          			TÌM MUA Ô TÔ
+				        		</a>
+						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						          <a class="dropdown-item" href="category-item.html" title="mercedes">MERCEDES</a>
+						          <div class="dropdown-divider"></div>
+						          <a class="dropdown-item" href="category-item.html" title="lamborginis">LAMBORGHINIS</a>
+						          <div class="dropdown-divider"></div>
+						          <a class="dropdown-item" href="category-item.html" title="volvo">VOLVO</a>
+						          <div class="dropdown-divider"></div>
+						          <a class="dropdown-item" href="category-item.html" title="jaquar">JAQUAR</a>
+						          <div class="dropdown-divider"></div>
+						          <a class="dropdown-item" href="category-item.html" title="audi">AUDI</a>
+						          <div class="dropdown-divider"></div>
+						          <a class="dropdown-item" href="category-item.html" title="bmw">BMW</a>
+						        </div>
+				     		 </li>
+				      		<li class="nav-item">
+				        		<a class="nav-link" href="policy.html" title="chính sách">CHÍNH SÁCH</a>
+				      		</li>
+				      		<li class="nav-item ">
+				        		<a class="nav-link" href="service.html" title="dịch vụ">DỊCH VỤ</a>
+				      		</li>
+				      		<li class="nav-item">
+				        		<a class="nav-link" href="advisory.html" title="tư vấn">TƯ VẤN</a>
+				      		</li>
+				      		<li class="nav-item dropdown">
+				        		<a class="nav-link dropdown-toggle" href="news.html" title="tin tức">
+				          			TIN TỨC
+				        		</a>
+						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						          <a class="dropdown-item" href="news-car.html" title="tin xe hơi">TIN XE HƠI</a>
+						        </div>
+				     		</li>
+				      		<li class="nav-item">
+				        		<a class="nav-link" href="introduce.html" title="giới thiệu">GIỚI THIỆU</a>
+				      		</li>
+				      		<li class="nav-item">
+				        		<a class="nav-link" href="contact.html">LIÊN HỆ</a>
+				      		</li>
+				    	</ul>
+
+				    	<form class="search-box">
+				    		<input type="text" name="" class="search-txt" name="search" placeholder="Mời bạn nhập ..."/>
+				    		<button class="search-btn"><i class="fas fa-search"></i></button>
+				    	</form>
+					 </div>
+	  			</div>
+			  </div>
+	  		</div>
+		</nav>
+	</div>
+	<!-- end nav-menu -->
+	<div class="container-fluid">
+		<div id="carouselExampleIndicators" class="carousel slide row" data-ride="carousel">						
+		<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="images/slide_1.jpg" style="width: 100%;">
+						<span class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="images/slide_2.jpg" style="width: 100%;">
+						<span class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="images/slide_3.jpg" style="width: 100%;">
+						<span class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<div>
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+	<!--end slider-->
+
+	<div id="site-info" class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="site-info-item">
+						<a href="">
+							<i class="fas fa-phone-volume" style="color: white;width: 30px;height: 30px;"></i>
+							<div class="title-site-info">1. HỖ TRỢ TRẢ GÓP</div>
+							<div>Chúng tôi hỗ trợ trả góp 0% cho bạn với thủ tục đơn giản</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="site-info-item">
+						<a href="category.html">
+							<i class="fas fa-chart-line" style="color: white;width: 30px;height: 30px;"></i>
+							<div class="title-site-info">2. CHẤT LƯỢNG TIÊU CHUẨN</div>
+							<div>Xe đảm bảo chất lượng quốc tế mẫu mã mới nhất</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="site-info-item">
+						<a href="service.html">
+							<i class="fas fa-wrench" style="color: white;width: 30px;height: 30px;"></i>
+							<div class="title-site-info">3. SỬA CHỮA & KIỂM TRA</div>
+							<div>Bảo dưỡng sửa chữa miễn phí 3 tháng đầu</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="site-info-item">
+						<a href="policy.html">
+							<i class="far fa-paper-plane" style="color: white;width: 30px;height: 30px;"></i>
+							<div class="title-site-info">4. TIN CẬY</div>
+							<div>LuxuryCar hân hạnh là bạn đồng hành trên mỗi chuyến đi của bạn</div>
+						</a>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div><!--end #site-info-->
+
+	<div id="content" class="container-fluid" >
+		<!-- Sản phẩm mới nhất -->
+		<div class="container" style="height: auto;">
+			<div id="new-product" style="border: height: auto;">
+				<div class="title-content">
+							<img src="images/vach_03.png">
+							<span>SẢN PHẨM MỚI NHẤT</span>
+				</div>
+					<div class="row">
+						<div class="col-md-3 product">
+							<div class="product-item">
+								<div class="img-product1">
+									<a href="detail.html">
+										<img class="img-product-item1" src="images/img1.jpg">
+									</a>
+								</div>
+								<div>
+									<a href="detail.html">
+											<span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Lamborghini Huracan LP 610-4</span><br>
+									</a>
+									<span style="color: red">10.000.000.000 ₫</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 product">
+							<div class="product-item">
+								<div class="img-product1">
+									<a href="detail.html">
+										<img class="img-product-item1" src="images/img1.jpg">
+									</a>
+								</div>
+								<div>
+									<a href="detail.html">
+											<span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Lamborghini Huracan LP 610-4</span><br>
+									</a>
+									<span style="color: red">10.000.000.000 ₫</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 product">
+							<div class="product-item">
+								<div class="img-product1">
+									<a href="detail.html">
+										<img class="img-product-item1" src="images/img1.jpg">
+									</a>
+								</div>
+								<div>
+									<a href="detail.html">
+											<span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Lamborghini Huracan LP 610-4</span><br>
+									</a>
+									<span style="color: red">10.000.000.000 ₫</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 product">
+							<div class="product-item">
+								<div class="img-product1">
+									<a href="detail.html">
+										<img class="img-product-item1" src="images/img1.jpg">
+									</a>
+								</div>
+								<div>
+									<a href="detail.html">
+											<span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Lamborghini Huracan LP 610-4</span><br>
+									</a>
+									<span style="color: red">10.000.000.000 ₫</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 product">
+							<div class="product-item">
+								<div class="img-product1">
+									<a href="detail.html">
+										<img class="img-product-item1" src="images/img1.jpg">
+									</a>
+								</div>
+								<div>
+									<a href="detail.html">
+											<span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Lamborghini Huracan LP 610-4</span><br>
+									</a>
+									<span style="color: red">10.000.000.000 ₫</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 product">
+							<div class="product-item">
+								<div class="img-product1">
+									<a href="detail.html">
+										<img class="img-product-item1" src="images/img1.jpg">
+									</a>
+								</div>
+								<div>
+									<a href="detail.html">
+											<span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Lamborghini Huracan LP 610-4</span><br>
+									</a>
+									<span style="color: red">10.000.000.000 ₫</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 product">
+							<div class="product-item">
+								<div class="img-product1">
+									<a href="detail.html">
+										<img class="img-product-item1" src="images/img1.jpg">
+									</a>
+								</div>
+								<div>
+									<a href="detail.html">
+											<span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Lamborghini Huracan LP 610-4</span><br>
+									</a>
+									<span style="color: red">10.000.000.000 ₫</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 product">
+							<div class="product-item">
+								<div class="img-product1">
+									<a href="detail.html">
+										<img class="img-product-item1" src="images/img1.jpg">
+									</a>
+								</div>
+								<div>
+									<a href="detail.html">
+											<span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Lamborghini Huracan LP 610-4</span><br>
+									</a>
+									<span style="color: red">10.000.000.000 ₫</span>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="row" style="margin-top: 20px;margin-bottom: 20px;">
+						<div class="col-md-12" style="text-align: center; padding-bottom: 40px;">
+							<button class="btn btn-outline-danger">Xem thêm</button>
+						</div>
+					</div>
+			</div>
+		</div>
+		<!-- Câu hỏi thường gặp -->
+		<div class="container-fluid" style="height: auto;">
+			<div id="question" style="height: auto;padding-bottom: 30px;">
+				<div class="container">
+					<div class="title-content row">
+						<div class="col-md-12"><span style="color: white;">Câu hỏi thường gặp</span></div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="question-content" class="row">
+								<div class="col-md-12">
+									<div><hr></div>
+									<div class="row">
+										<span class="btn" aria-expanded="false" data-toggle="collapse" data-target="#answers1"><i class="fas fa-caret-square-down" style="font-size: 20px; color: #e60000;"></i></span><a href="#">Tôi đã có gia đình, dự định mua ô tô</a>
+									</div>
+									<div id="answers1" class="row collapse answers">
+										<span class="best-answers">Câu trả lời hay nhất</span><br>
+										<span class="best-answers-content">Chúng ta đang sống trong thế giới phẳng, nghĩa là có sự cạnh tranh giữa các nhà sản xuất với nhau. Và theo quy luật của thị trường cạnh tranh, hãng xe nào có sản phẩm kém sẽ bị tẩy chay và phá sản. Có thể hiểu đơn giản là "tiền nào, của đó". Nhưng đó là chuyện ở thế giới, còn ở Việt Nam, nơi không phải là thị trường cạnh tranh thì vấn đề lại là sự lựa chọn thông minh của người tiêu dùng. Để chọn một chiếc xe thì bạn không nên nhìn vào thương hiệu (thực chất thì hãng xe nào đang tồn tại cũng đều là thương hiệu toàn cầu) và không nên theo tâm lý bày đàn để rồi ôm hận vì người phải trả giá là bạn chứ không phải bày đàn.</span> 
+									</div>			
+								</div>
+							</div>
+							<div class="question-content" class="row">
+								<div class="col-md-12">
+									<div><hr></div>
+									<div class="row">
+										<span class="btn" aria-expanded="false" data-toggle="collapse" data-target="#answers2"><i class="fas fa-caret-square-down" style="font-size: 20px; color: #e60000;"></i></span><a href="#">So sánh Toyota Fortuner 2018</a>
+									</div>
+									<div id="answers2" class="row collapse answers">
+										<span class="best-answers">Câu trả lời hay nhất</span><br>
+										<span class="best-answers-content">Chúng ta đang sống trong thế giới phẳng, nghĩa là có sự cạnh tranh giữa các nhà sản xuất với nhau. Và theo quy luật của thị trường cạnh tranh, hãng xe nào có sản phẩm kém sẽ bị tẩy chay và phá sản. Có thể hiểu đơn giản là "tiền nào, của đó". Nhưng đó là chuyện ở thế giới, còn ở Việt Nam, nơi không phải là thị trường cạnh tranh thì vấn đề lại là sự lựa chọn thông minh của người tiêu dùng. Để chọn một chiếc xe thì bạn không nên nhìn vào thương hiệu (thực chất thì hãng xe nào đang tồn tại cũng đều là thương hiệu toàn cầu) và không nên theo tâm lý bày đàn để rồi ôm hận vì người phải trả giá là bạn chứ không phải bày đàn.</span> 
+									</div>			
+								</div>
+							</div>
+
+							<div class="question-content" class="row">
+								<div class="col-md-12">
+									<div><hr></div>
+									<div class="row question-content-summary">
+										<span class="btn" aria-expanded="false" data-toggle="collapse" data-target="#answers3"><i class="fas fa-caret-square-down" style="font-size: 20px; color: #e60000;"></i></span><a href="#">Có nên mua xe Hyundai Accent MT 2018 chạy dịch vụ Grab</a>
+									</div>
+									<div id="answers3" class="row collapse answers">
+										<span class="best-answers">Câu trả lời hay nhất</span><br>
+										<span class="best-answers-content">Chúng ta đang sống trong thế giới phẳng, nghĩa là có sự cạnh tranh giữa các nhà sản xuất với nhau. Và theo quy luật của thị trường cạnh tranh, hãng xe nào có sản phẩm kém sẽ bị tẩy chay và phá sản. Có thể hiểu đơn giản là "tiền nào, của đó". Nhưng đó là chuyện ở thế giới, còn ở Việt Nam, nơi không phải là thị trường cạnh tranh thì vấn đề lại là sự lựa chọn thông minh của người tiêu dùng. Để chọn một chiếc xe thì bạn không nên nhìn vào thương hiệu (thực chất thì hãng xe nào đang tồn tại cũng đều là thương hiệu toàn cầu) và không nên theo tâm lý bày đàn để rồi ôm hận vì người phải trả giá là bạn chứ không phải bày đàn.</span> 
+									</div>
+									<div><hr></div>			
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-12" style="text-align: right; ">
+									<a href="#" style="font-style: italic; font-size: 12px; color: #e60000;">Xem tất cả ></a>
+								</div>
+							</div>	
+						</div>
+						<div class="col-md-6">
+							<div class="row product-item" style="position: relative;">
+								<div class="img-product" style="text-align: right;border: 3px solid #ddd;border-radius: 10px; margin-left: 27%;"><img class="img-product-item" src="images/img2.jpg" style="width: 400px; height: 240px;border-radius: 10px;"></div>
+								<div class="img-product" style=" width: auto;position: absolute;border: 3px solid #ddd;border-radius: 10px; margin-top: 28%;"><img class="img-product-item" src="images/img3.jpg" style="width: 200px;border-radius: 10px;">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Dịch vụ -->
+		<div class="container" style="height: auto;">
+			<div id="service" style="height: auto;">
+				<div class="title-content">
+					<img src="images/vach_03.png">
+					<span>Dịch vụ của chúng tôi</span>
+				</div>
+				<div class="row" style="padding-left: 30px;">
+					<div data-wow-delay="0.2s" class="product wow rollIn col-md-4 service-item">
+							<div class="product-item">
+								<div class="img-product" style="width: 95%;">
+									<a href="service-danhbong.html">
+										<img class="img-product-item" src="images/danhbong.jpg" height="200" style="width: 100%;">
+									</a>
+								</div>
+								<div>
+									<a href="service-danhbong.html">
+										<span class="service-title">Đánh bóng hiệu chỉnh mặt sơn</span>
+									</a>
+								</div>
+							</div>
+					</div>
+					<div data-wow-delay="0.4s" class="product wow bounceInDown center col-md-4 service-item">
+							<div class="product-item">
+								<div class="img-product" style="width: 95%;">
+									<a href="service-chuandoanloi.html">
+										<img style="width: 100%;" class="img-product-item" src="images/chuandoanloi.jpg" height="200">
+									</a>
+								</div>
+								<div>
+									<a href="service-chuandoanloi.html">
+										<span class="service-title">Chuẩn đoán lỗi</span>
+									</a>
+								</div>
+							</div>
+					</div>
+					<div data-wow-delay="0.2s" class="product wow bounceInRight col-md-4 service-item">
+							<div class="product-item">
+								<div class="img-product" style="width: 95%;">
+									<a href="service-baoduong.html">
+										<img style="width: 100%;" class="img-product-item" src="images/phugam.jpg" height="200">
+									</a>
+								</div>
+								<div>
+									<a href="service-baoduong.html">
+										<span class="service-title">Bảo dưỡng định kỳ</span>
+									</a>
+								</div>
+							</div>
+					</div>			
+					<div data-wow-delay="0.2s" class="product wow rollIn col-md-4 service-item">
+							<div class="product-item">
+								<div class="img-product" style="width: 95%;">
+									<a href="service-phuchoi.html">
+										<img style="width: 100%;" class="img-product-item" src="images/khoiphucvo.jpg" height="200">
+									</a>
+								</div>
+								<div>
+									<a href="service-phuchoi.html">
+										<span class="service-title">Khôi phục thân vỏ</span>
+									</a>
+								</div>
+							</div>
+					</div>
+					<div data-wow-delay="0.3s" class="product wow bounceInDown center col-md-4 service-item">
+							<div class="product-item">
+								<div class="img-product" style="width: 95%;">
+									<a href="service-soncongnghecao.html">
+										<img style="width: 100%;" class="img-product-item" src="images/son.jpg" height="200">
+									</a>
+								</div>
+								<div>
+									<a href="service-soncongnghecao.html">
+										<span class="service-title">Sơn công nghệ cao</span>
+									</a>
+								</div>
+							</div>
+					</div>
+					<div data-wow-delay="0.2s" class="product wow bounceInRight col-md-4 service-item">
+							<div class="product-item">
+								<div class="img-product" style="width: 95%;">
+									<a href="service-danphimcachnhiet.html">
+										<img style="width: 100%;" class="img-product-item" src="images/danphim.jpg" height="200">
+									</a>
+								</div>
+								<div>
+									<a href="service-danphimcachnhiet.html">
+										<span class="service-title">Dán phim cách nhiệt</span>
+									</a>
+								</div>
+							</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- Đội ngũ nhân viên -->
+		<div class="container">
+			<div id="inf-employees">
+				<div class="title-content">
+							<img src="images/vach_03.png">
+							<span>Đội ngũ nhân viên chuyên nghiệp</span>
+				</div>
+				<div class="row">
+					<div class="col-md-3 employees">
+							<div class="employees-item">
+								<div class="img-employees">
+									<a href="">
+										<img class="img-employees-item" src="images/employees2.jpg">
+									</a>
+								</div>
+								<div class="name">
+									<span style="font-weight: bold;margin-top:20px;margin-bottom:30px;">Mr. Binh</span><br>
+									<span style="font-size: 12px; font-style: italic; color: #9a9a9a;">Thợ sơn</span>
+								</div>
+							</div>
+					</div>
+					<div class="col-md-3 employees">
+							<div class="employees-item">
+								<div class="img-employees">
+									<a href="">
+										<img class="img-employees-item" src="images/employees4.jpg">
+									</a>
+								</div>
+								<div class="name">
+									<span style="font-weight: bold;margin-top:20px;margin-bottom:30px;">Mr. Cuong</span><br>
+									<span style="font-size: 12px; font-style: italic; color: #9a9a9a;">Thợ chính</span>
+								</div>
+							</div>
+					</div>
+					<div class="col-md-3 employees">
+							<div class="employees-item">
+								<div class="img-employees">
+									<a href="">
+										<img class="img-employees-item" src="images/employees3.jpg">
+									</a>
+								</div>
+								<div class="name">
+									<span style="font-weight: bold;margin-top:20px;margin-bottom:30px;">Mr. Duy</span><br>
+									<span style="font-size: 12px; font-style: italic; color: #9a9a9a;">Thợ chính</span>
+								</div>
+							</div>
+					</div>
+					<div class="col-md-3 employees">
+							<div class="employees-item">
+								<div class="img-employees">
+									<a href="">
+										<img class="img-employees-item" src="images/employees1.jpg">
+									</a>
+								</div>
+								<div class="name">
+									<span style="font-weight: bold;margin-top:20px;margin-bottom:30px;">Mr. Duong</span><br>
+									<span style="font-size: 12px; font-style: italic; color: #9a9a9a;">Thợ gò</span>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Tin tức mới nhất -->
+		<div class="container" style="height: auto;">
+			<div id="news">
+				<div class="row">
+					<div class="title-content col-md-12">
+						<img src="images/vach_03.png">
+						<span>Tin tức mới nhất</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 employees">
+						<div class="row employees-item">
+							<div class="col-md-12 img-employees">
+								<a href="news-item.html">
+									<img class="img-employees-item" src="images/img_news1.jpg" style="height:auto;">
+								</a>
+							</div>
+						</div>
+						<div style="padding-left:25px; ">
+							<div class="news-title row">
+								<div class="col-md-12">
+									<a href="news-item.html">LEXUS LC CONVERTIBLE CONCEPT:...</a>
+								</div>
+							</div>
+							<div class="row">
+								<div class="news-date col-md-4">
+									<span class="news-icon"><i class="far fa-clock"></i></span><span style="color: #e60000">12/01/19</span>
+								</div>
+								<div class="news-comment col-md-4">
+									<span class="news-icon"><i class="far fa-comment"></i></span><span style="color: #e60000">1 Bình luận</span>
+								</div>
+							</div>
+							<div class="news-content row">
+								<div class="col-md-12">
+									<a href="news-item.html">Ngay khi Lexus công bố những hình ảnh đầu tiên của LC Convertible Concept, không ít người đã thúc giục thương hiệu Nhật Bản bắt tay vào hoàn thiện mẫu xe này ngay.</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 employees">
+						<div class="row employees-item">
+							<div class="col-md-12 img-employees">
+								<a href="news-item.html">
+									<img class="img-employees-item" src="images/img_news1.jpg" style="height:auto;">
+								</a>
+							</div>
+						</div>
+						<div style="padding-left:25px; ">
+							<div class="news-title row">
+							<div class="col-md-12"><a href="news-item.html">LEXUS LC CONVERTIBLE CONCEPT:...</a></div>
+						</div>
+						<div class="row">
+							<div class="news-date col-md-4">
+								<span class="news-icon"><i class="far fa-clock"></i></span><span style="color: #e60000">12/01/19</span>
+							</div>
+							<div class="news-comment col-md-4">
+								<span class="news-icon"><i class="far fa-comment"></i></span><span style="color: #e60000">1 Bình luận</span>
+							</div>
+						</div>
+						<div class="news-content row">
+							<div class="col-md-12">
+								<a href="news-item.html">Ngay khi Lexus công bố những hình ảnh đầu tiên của LC Convertible Concept, không ít người đã thúc giục thương hiệu Nhật Bản bắt tay vào hoàn thiện mẫu xe này ngay.</a>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-4 employees">
+						<div class="row employees-item">
+							<div class="col-md-12 img-employees">
+								<a href="news-item.html">
+									<img class="img-employees-item" src="images/img_news1.jpg" style="height:auto;">
+								</a>
+							</div>
+						</div>
+						<div style="padding-left:25px; ">
+							<div class="news-title row">
+							<div class="col-md-12"><a href="#">LEXUS LC CONVERTIBLE CONCEPT:...</a></div>
+						</div>
+						<div class="row">
+							<div class="news-date col-md-4">
+								<span class="news-icon"><i class="far fa-clock"></i></span><span style="color: #e60000">12/01/19</span>
+							</div>
+							<div class="news-comment col-md-4">
+								<span class="news-icon"><i class="far fa-comment"></i></span><span style="color: #e60000">1 Bình luận</span>
+							</div>
+						</div>
+						<div class="news-content row">
+							<div class="col-md-12">
+								<a href="news-item.html">Ngay khi Lexus công bố những hình ảnh đầu tiên của LC Convertible Concept, không ít người đã thúc giục thương hiệu Nhật Bản bắt tay vào hoàn thiện mẫu xe này ngay.</a>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Cảm nhận của khách hàng -->
+		<!-- <div class="container-fluid feedback" style="background-image: url('images/background_car.jpg'); opacity: 0.7;" >
+			<div>
+				<div  class="container">
+					<div class="row">
+						<div class=" title-content col-md-12">
+							<span style="color: black;">Cảm nhận của khách hàng</span>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div> -->
+	</div>
+
+
+	<!-- end content -->
+
+	<div id="footer" class="container-fluid">
+		<div class="container-fluid" id="footer-link">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="title-footer">
+							<img src="images/vach_03.png">
+							<span>LUXURY CAR</span>
+						</div>
+						<ul id="top-botton">
+							<li class="icon">
+								<img class="item-icon" src="images/home.png">
+								<span class="title-icon">VĂN PHÒNG</span>
+								<div style="padding-left:30px; ">
+									Add: Số 17 Trung Yên 12-Cầu Giấy-Hà Nội
+									<div id="hotline">
+										<a class="hotline-item" href="tel:0436 396 898" title="Call now">Hotline: 0436 396 898 - </a>
+										<a class="hotline-item" href="tel:01269 688 688" title="Call now">01269 688 688</a>
+									</div>
+								</div>
+							</li>
+							<li class="icon">
+								<img class="item-icon" src="images/place.png">
+								<span class="title-icon">CHI NHÁNH</span>
+								<div style="padding-left: 30px">Chúng tôi đang mở thêm chi nhánh ở TP Hồ Chí Minh và Đà Nẵng</div>
+							</li>
+						</ul>		
+					</div>
+					<!-- luxury car -->
+					<div class="col-md-4">
+						<div class="title-footer">
+							<img src="images/vach_03.png">
+							<span>TIN NỔI BẬT</span>
+						</div>
+						<div class="news-item row">
+							<div class="col-md-4 library-item" style="height: 100px; width: 90%;padding: 0px;">
+								<a href="news-item.html" title="Lexus LC Convertible Concept: Còn chờ gì nữa hỡi Lexus?">
+									<img class="news-img" src="http://thegioixehoi.delectech.vn/images/news/2019/01/12/resized/lexus-lc-convertible-concept-2-15472075478571522911135-crop-15472077540312137910_1547319275.jpg" alt="Lexus LC Convertible Concept: Còn chờ gì nữa hỡi Lexus?">
+								</a>
+							</div>
+							<div class="col-md-6 library-item" style="height: 100px; width: 100%;padding: 0px;">
+								<a href="news-item.html" class="title-news">Lexus LC Convertible Concept: Còn chờ gì...<br></a>
+								<span class="date">
+									<span style="color: red;">
+										<img class="news-icon" src="images/clock.png">1/1/2019
+									</span>
+									<span style="color: red;">
+										<img class="news-icon" src="images/chat.png">1 Bình luận
+									</span>
+								</span>
+							</div>
+
+							<div class="library-item col-md-4" style="height: 100px; width: 90%;padding: 0px;">
+								<a href="news-item.html" title="Lexus LC Convertible Concept: Còn chờ gì nữa hỡi Lexus?">
+									<img class="news-img" src="http://thegioixehoi.delectech.vn/images/news/2019/01/12/resized/lexus-lc-convertible-concept-2-15472075478571522911135-crop-15472077540312137910_1547319275.jpg" alt="Lexus LC Convertible Concept: Còn chờ gì nữa hỡi Lexus?">
+								</a>
+							</div>
+							<div class=" col-md-6 library-item" style="height: 100px; width: 100%;padding: 0px;">
+								<a href="news-item.html" class="title-news">Lexus LC Convertible Concept: Còn chờ gì...<br></a>
+								<span class="date">
+									<span style="color: red;">
+										<img class="news-icon" src="images/clock.png">1/1/2019
+									</span>
+									<span style="color: red;">
+										<img class="news-icon" src="images/chat.png">1 Bình luận
+									</span>
+								</span>
+							</div>
+						</div>
+					</div>
+					<!-- tin nổi bật -->
+
+					<div class="col-md-4">
+						<div class="title-footer">
+							<img src="images/vach_03.png">
+							<span>THƯ VIỆN ẢNH</span>
+						</div>
+							<div class="row">
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- thư viện ảnh -->
+				</div>
+			</div>
+		</div>
+		<div id="booton-footer" class="container-fluid">
+			<ul id="quick-nav-footer">
+				<li><a href="index.html" title="Trang chủ">TRANG CHỦ</a></li>
+				<li><a href="category.html" title="Tìm mua ô tô">TÌM MUA Ô TÔ</a></li>
+				<li><a href="policy.html" title="Ch sách">CHÍNH SÁCH</a></li>
+				<li><a href="advisory.html" title="Tư vấn">TƯ VẤN</a></li>
+				<li><a href="service.html" title="Dịch vụ">DỊCH VỤ</a></li>
+				<li><a href="contact.html" title="Liên hệ">LIÊN HỆ</a></li>
+			</ul>
+		</div>
+		<!-- bootom-nav-menu -->
+	</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><img style="width: 20px;height:20px;top: 5px;" src="images/chevron-up.png"></button>
+	<!-- end footer -->
+</body>
+</html>

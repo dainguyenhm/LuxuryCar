@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sản phẩm</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	
+	<link rel="stylesheet" href="awesome-bootstrap-checkbox.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />	
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+	<link rel="shortcut icon" type="image/png" href="images/logo.jpg"/>
+
+	<link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
+	<script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<script>
+		new WOW().init();
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    document.getElementById("myBtn").style.display = "block";
+		  } else {
+		    document.getElementById("myBtn").style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+	</script>
+</head>
+<body>
+	<div id="header">
+		<div id="top-nav">
+			<div id="top-nav-content" class="container"> 
+				<div>
+					<div id="left-head">
+						<a href="#" title="chi nhánh">
+							<span><i class="fa fa-map-marker"></i></span>
+							<span>Chi nhánh rộng khắp</span>
+						</a>
+						<a href="#" style="padding-left: 10px;" title="điểm nổi bật">
+							<span><i class="fa fa-star"></i></span>
+							<span>Điểm nổi bật</span>
+						</a>
+						<a href="#" style="padding-left: 10px;" title="dịch vụ">
+							<span><i class="fa fa-users"></i></span>
+							<span>Dịch vụ chuyên nghiệp</span>
+						</a>
+					</div>
+
+					<div id="right-head">
+						<a href="#" ><span ><i class="fab fa-facebook"></i></span></a>
+						<a href="#" ><span ><i class="fab fa-google-plus"></i></span></a>
+						<a href="#" ><span ><i class="fab fa-twitter-square"></i></i></span></a>
+						<a href="registration.html">Đăng ký</a>
+						<a href="login.html">Đăng nhập</a>s
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<div id="top-nav-logo" class="container-fluid">
+		<div class="row">
+			<div class="col-md-3" style="text-align: center;width: 100%;">
+					<a href="index.html"><img src="images/logo.jpg" style="height: 90px; width: 150px;"></a>
+			</div>
+			<div class="col-md-9" style="background-color: black;border-radius: 0px 0px 0px 80px;">
+				<div class="container">
+					<div class="row" style="margin-top: 25px; ">
+						<div class="col-md-6">
+						</div>
+						<div class="col-md-3"> 	
+							<div class="row">
+								<img src="images/gio.png">
+								<span style="color: white; font-size: 14px;padding-left: 7px;">
+									Giờ làm việc<br>
+									<span class="time-text" title="giờ">8:00 - 17:00</span>
+								</span>
+							</div>
+						</div>
+						<div class="col-md-3"> 
+							<div class="row">
+								<img src="images/hotline.png">
+								<span style="color: white; font-size: 14px;padding-left: 7px;">
+									Hotline<br>
+									<span class="time-text" title="hotline">0436 369 898</span>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end header -->
+
+	<div id="top-nav-menu">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+	  		<div class="container">
+	  			<div class="row">
+	  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		   		 	<span class="navbar-toggler-icon"></span>
+		 		</button>
+
+			  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			   		<ul class="navbar-nav mr-auto">
+			      		<li class="nav-item "> 
+			        		<a class="nav-link" href="index.html" title="trang chủ">TRANG CHỦ</a>
+			      		</li>
+			      		<li class="nav-item dropdown active">
+			        		<a class="nav-link dropdown-toggle" href="category.html" title="tìm mua ô tô">
+			          			TÌM MUA Ô TÔ
+			        		</a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          <a class="dropdown-item" href="category-item.html" title="mercedes">MERCEDES</a>
+					          <div class="dropdown-divider"></div>
+					          <a class="dropdown-item" href="category-item.html" title="lamborginis">LAMBORGHINIS</a>
+					          <div class="dropdown-divider"></div>
+					          <a class="dropdown-item" href="category-item.html" title="volvo">VOLVO</a>
+					          <div class="dropdown-divider"></div>
+					          <a class="dropdown-item" href="category-item.html" title="jaquar">JAQUAR</a>
+					          <div class="dropdown-divider"></div>
+					          <a class="dropdown-item" href="category-item.html" title="audi">AUDI</a>
+					          <div class="dropdown-divider"></div>
+					          <a class="dropdown-item" href="category-item.html" title="bmw">BMW</a>
+					        </div>
+			     		 </li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="policy.html" title="chính sách">CHÍNH SÁCH</a>
+			      		</li>
+			      		<li class="nav-item ">
+			        		<a class="nav-link" href="service.html" title="dịch vụ">DỊCH VỤ</a>
+			      		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="advisory.html" title="tư vấn">TƯ VẤN</a>
+			      		</li>
+			      		<li class="nav-item dropdown">
+			        		<a class="nav-link dropdown-toggle" href="news.html">
+			          			TIN TỨC
+			        		</a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          <a class="dropdown-item" href="news-car.html" title="tin xe hơi">TIN XE HƠI</a>
+					        </div>
+			     		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="introduce.html" title="giới thiệu">GIỚI THIỆU</a>
+			      		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="contact.html" title="liên hệ">LIÊN HỆ</a>
+			      		</li>
+			    	</ul>
+
+			    	<form class="search-box">
+				    		<input type="text" name="" class="search-txt" name="search" placeholder="Mời bạn nhập ..."/>
+				    		<button class="search-btn"><i class="fas fa-search"></i></button>
+				    </form>
+	  			</div>
+			  </div>
+	  		</div>
+		</nav>
+	</div>
+	<!-- end nav-menu -->
+	
+	<div id="content" class="container-fluid" style="margin-bottom:50px; " >
+		<div class="container-fluid" style="background: #f6f6f6;">
+			<div class="container link-page" style="margin-top: 25px;">
+				<div class="row">
+					<div class="col-md-12">
+						<a href="index.html" class="index">Trang chủ</a>
+						<span>&nbsp;&rsaquo;&nbsp;</span>
+						<a href="" class="title-page">Sản phẩm</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 left-category">
+					<div class="title-content" style="font-size: 20px;margin-bottom:10px; ">
+							<img src="images/vach_03.png">
+							<span>SẢN PHẨM</span>
+					</div>
+					<div class="row">
+						<div class="col-md-4 product">
+							<div class="product-item">
+								<div class="img-product1">
+									<a href="detail.html">
+										<img class="img-product-item1" src="images/cls.jpg">
+									</a>
+								</div>
+								<div>
+									<a href="detail.html">
+											<span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Mercedes CLS 450 2019</span><br>
+									</a>
+									<span style="color: red">10.000.000.000 ₫</span><br>
+									<span class="inf-product">Nơi sản xuất: Đức</span><br>
+									<span class="inf-product">Động cơ: 3.0L MSI</span><br>
+									<span class="inf-product">Số KM: 0</span><br>
+									<span class="inf-product">Tình trạng xe: Mới</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 product">
+							<div class="product-item">
+								<div class="img-product1">
+									<a href="detail.html">
+										<img class="img-product-item1" src="images/cls.jpg">
+									</a>
+								</div>
+								<div>
+									<a href="detail.html">
+											<span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Mercedes CLS 450 2019</span><br>
+									</a>
+									<span style="color: red">10.000.000.000 ₫</span><br>
+									<span class="inf-product">Nơi sản xuất: Đức</span><br>
+									<span class="inf-product">Động cơ: 3.0L MSI</span><br>
+									<span class="inf-product">Số KM: 0</span><br>
+									<span class="inf-product">Tình trạng xe: Mới</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 product">
+							<div class="product-item">
+								<div class="img-product1">
+									<a href="detail.html">
+										<img class="img-product-item1" src="images/cls.jpg">
+									</a>
+								</div>
+								<div>
+									<a href="detail.html">
+											<span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Mercedes CLS 450 2019</span><br>
+									</a>
+									<span style="color: red">10.000.000.000 ₫</span><br>
+									<span class="inf-product">Nơi sản xuất: Đức</span><br>
+									<span class="inf-product">Động cơ: 3.0L MSI</span><br>
+									<span class="inf-product">Số KM: 0</span><br>
+									<span class="inf-product">Tình trạng xe: Mới</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 product">
+							<div class="product-item">
+								<div class="img-product1">
+									<a href="detail.html">
+										<img class="img-product-item1" src="images/cls.jpg">
+									</a>
+								</div>
+								<div>
+									<a href="detail.html">
+											<span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Mercedes CLS 450 2019</span><br>
+									</a>
+									<span style="color: red">10.000.000.000 ₫</span><br>
+									<span class="inf-product">Nơi sản xuất: Đức</span><br>
+									<span class="inf-product">Động cơ: 3.0L MSI</span><br>
+									<span class="inf-product">Số KM: 0</span><br>
+									<span class="inf-product">Tình trạng xe: Mới</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 product">
+							<div class="product-item">
+								<div class="img-product1">
+									<a href="detail.html">
+										<img class="img-product-item1" src="images/cls.jpg">
+									</a>
+								</div>
+								<div>
+									<a href="detail.html">
+											<span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Mercedes CLS 450 2019</span><br>
+									</a>
+									<span style="color: red">10.000.000.000 ₫</span><br>
+									<span class="inf-product">Nơi sản xuất: Đức</span><br>
+									<span class="inf-product">Động cơ: 3.0L MSI</span><br>
+									<span class="inf-product">Số KM: 0</span><br>
+									<span class="inf-product">Tình trạng xe: Mới</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 product">
+							<div class="product-item">
+								<div class="img-product1">
+									<a href="detail.html">
+										<img class="img-product-item1" src="images/cls.jpg">
+									</a>
+								</div>
+								<div>
+									<a href="detail.html">
+											<span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Mercedes CLS 450 2019</span><br>
+									</a>
+									<span style="color: red">10.000.000.000 ₫</span><br>
+									<span class="inf-product">Nơi sản xuất: Đức</span><br>
+									<span class="inf-product">Động cơ: 3.0L MSI</span><br>
+									<span class="inf-product">Số KM: 0</span><br>
+									<span class="inf-product">Tình trạng xe: Mới</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row" style="margin-top: 40px;">
+						<div class="col-md-12" style="text-align: center;">
+							<button class="btn btn-outline-danger">Xem thêm</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 right-category">
+					<div id="filter">
+						<div id="title-filter">lọc sản phẩm</div>
+						<div class="question-content" class="row">
+								<div class="col-md-12">
+									<div><hr></div>
+									<div class="row">
+										<span class="btn" aria-expanded="false" data-toggle="collapse" data-target="#answers1"><i class="fas fa-caret-square-down" style="font-size: 20px; color: #e60000;"></i></span>
+										<a href="#">NƯỚC SẢN XUẤT</a>
+									</div>
+									<div id="answers1" class="row collapse answers">
+										<form style="color: white;">
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Đức</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Ý</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Anh</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Nhật</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Mỹ</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Thụy Điển</label>
+										    </div>
+										  </form>
+									</div>			
+								</div>
+								<div class="col-md-12">
+									<div><hr></div>
+									<div class="row">
+										<span class="btn" aria-expanded="false" data-toggle="collapse" data-target="#answers7"><i class="fas fa-caret-square-down" style="font-size: 20px; color: #e60000;"></i></span>
+										<a href="#">Hãng</a>
+									</div>
+									<div id="answers7" class="row collapse answers">
+										<form style="color: white;">
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Lamborghini</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Roll Royce</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Mercedec</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Audi</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> BMW</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Lexus</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Range Rover</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Jaguar</label>
+										    </div>
+										  </form>
+									</div>			
+								</div>
+								<div class="col-md-12">
+									<div><hr></div>
+									<div class="row">
+										<span class="btn" aria-expanded="false" data-toggle="collapse" data-target="#answers2"><i class="fas fa-caret-square-down" style="font-size: 20px; color: #e60000;"></i></span>
+										<a href="#">GIÁ</a>
+									</div>
+									<div id="answers2" class="row collapse answers">
+										<form style="color: white;">
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Dưới 5 tỉ</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Từ 5 tỉ -> 10 tỉ</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Trên 10 tỉ</label>
+										    </div>
+										  </form>
+									</div>			
+								</div>
+								<div class="col-md-12">
+									<div><hr></div>
+									<div class="row">
+										<span class="btn" aria-expanded="false" data-toggle="collapse" data-target="#answers3"><i class="fas fa-caret-square-down" style="font-size: 20px; color: #e60000;"></i></span>
+										<a href="#">LOẠI XE</a>
+									</div>
+									<div id="answers3" class="row collapse answers">
+										<form style="color: white;">
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Xe sang</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Xe thể thao</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Xe điện</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Xe Sedan</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Xe SUV</label>
+										    </div>
+										  </form>
+									</div>			
+								</div>
+								<div class="col-md-12" style="border-top: 1px solid black;">
+									<div><hr></div>
+									<div class="row">
+										<span class="btn" aria-expanded="false" data-toggle="collapse" data-target="#answers5"><i class="fas fa-caret-square-down" style="font-size: 20px; color: #e60000;"></i></span>
+										<a href="#">TÌNH TRẠNG XE</a>
+									</div>
+									<div id="answers5" class="row collapse answers">
+										<form style="color: white;">
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Mới</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Cũ</label>
+										    </div>
+										  </form>
+									</div>		
+								</div>
+								<div class="col-md-12" style="border-bottom: 1px solid black">
+									<div><hr></div>
+									<div class="row">
+										<span class="btn" aria-expanded="false" data-toggle="collapse" data-target="#answers6"><i class="fas fa-caret-square-down" style="font-size: 20px; color: #e60000;"></i></span>
+										<a href="#">NĂM SẢN XUẤT</a>
+									</div>
+									<div id="answers6" class="row collapse answers">
+										<form style="color: white;">
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Năm 2017</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Năm 2018</label>
+										    </div>
+										    <div class="checkbox">
+										      <label><input type="checkbox" value=""> Năm 2019</label>
+										    </div>
+										  </form>
+									</div>
+									<div><br></div>			
+								</div>
+							</div>
+					</div>
+					<div id="product-topical">
+						<div id="title-product-topical">Sản phẩm tiêu biểu</div>
+						<div class="col-md-12 product" style="width: 100%;">
+							<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+							  	<div class="carousel-inner">
+							    	<div class="carousel-item active">
+							      		<div class="product-item d-block w-100" alt="First slide" style="padding-right: 10px;">
+											<div class="img-product">
+												<a href="detail.html">
+													<img class="img-product-item" src="images/cls.jpg">
+												</a>
+											</div>
+											<div style="margin-bottom:10px; ">
+												<a href="detail.html">
+														<span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Mercedes CLS 450 2019</span><br>
+												</a>
+												<span style="color: red">10.000.000.000 ₫</span><br>
+											</div>
+											<a class="btn-topical-product" href="detail.html" title="Mercedes CLS 450 2019">
+													CHI TIẾT
+											</a>
+										</div>
+							    	</div>
+							    	<div class="carousel-item">
+							      		<div class="product-item d-block w-100" alt="Second slide" style="padding-right: 10px;">
+											<div class="img-product">
+												<a href="detail.html">
+													<img class="img-product-item" src="images/cls.jpg">
+												</a>
+											</div>
+											<div style="margin-bottom:10px; ">
+												<a href="detail.html">
+														<span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Mercedes CLS 450 2019</span><br>
+												</a>
+												<span style="color: red">10.000.000.000 ₫</span><br>
+											</div>
+											<a class="btn-topical-product" href="detail.html" title="Mercedes CLS 450 2019">
+													CHI TIẾT
+											</a>
+										</div>
+							    	</div>
+							    	<div class="carousel-item">
+							      		<div class="product-item d-block w-100" alt="Third slide" style="padding-right: 10px;">
+											<div class="img-product">
+												<a href="detail.html">
+													<img class="img-product-item" src="images/cls.jpg">
+												</a>
+											</div>
+											<div style="margin-bottom:10px; ">
+												<a href="detail.html">
+														<span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Mercedes CLS 450 2019</span><br>
+												</a>
+												<span style="color: red">10.000.000.000 ₫</span><br>
+											</div>
+											<a class="btn-topical-product" href="detail.html" title="Mercedes CLS 450 2019">
+													CHI TIẾT
+											</a>
+										</div>
+							    	</div>
+							    	<div class="carousel-item">
+							      		<div class="product-item d-block w-100" alt="Third slide" style="padding-right: 10px;">
+											<div class="img-product">
+												<a href="detail.html">
+													<img class="img-product-item" src="images/cls.jpg">
+												</a>
+											</div>
+											<div style="margin-bottom:10px; ">
+												<a href="detail.html">
+														<span style="font-weight: bold;color: black;margin-top:20px;margin-bottom:30px;">Mercedes CLS 450 2019</span><br>
+												</a>
+												<span style="color: red">10.000.000.000 ₫</span><br>
+											</div>
+											<a class="btn-topical-product" href="detail.html" title="Mercedes CLS 450 2019">
+													CHI TIẾT
+											</a>
+										</div>
+							    	</div>
+							  	</div>
+							  	<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+							    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							    	<span class="sr-only">Previous</span>
+							  	</a>
+							  	<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+							    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							    	<span class="sr-only">Next</span>
+							  	</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end content -->
+
+	<div id="footer" class="container-fluid">
+		<div class="container-fluid" id="footer-link">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="title-footer">
+							<img src="images/vach_03.png">
+							<span>LUXURY CAR</span>
+						</div>
+						<ul id="top-botton">
+							<li class="icon">
+								<img class="item-icon" src="images/home.png">
+								<span class="title-icon">VĂN PHÒNG</span>
+								<div style="padding-left:30px; ">
+									Add: Số 17 Trung Yên 12-Cầu Giấy-Hà Nội
+									<div id="hotline">
+										<a class="hotline-item" href="tel:0436 396 898" title="Call now">Hotline: 0436 396 898 - </a>
+										<a class="hotline-item" href="tel:01269 688 688" title="Call now">01269 688 688</a>
+									</div>
+								</div>
+							</li>
+							<li class="icon">
+								<img class="item-icon" src="images/place.png">
+								<span class="title-icon">CHI NHÁNH</span>
+								<div style="padding-left: 30px">Chúng tôi đang mở thêm chi nhánh ở TP Hà Nội và Đà Nẵng</div>
+							</li>
+						</ul>		
+					</div>
+					<!-- luxury car -->
+					<div class="col-md-4">
+						<div class="title-footer">
+							<img src="images/vach_03.png">
+							<span>TIN NỔI BẬT</span>
+						</div>
+						<div class="news-item row">
+							<div class="library-item col-md-4" style="height: 100px; width: 90%;padding: 0px;">
+								<a href="#" title="Lexus LC Convertible Concept: Còn chờ gì nữa hỡi Lexus?">
+									<img class="news-img" src="http://thegioixehoi.delectech.vn/images/news/2019/01/12/resized/lexus-lc-convertible-concept-2-15472075478571522911135-crop-15472077540312137910_1547319275.jpg" alt="Lexus LC Convertible Concept: Còn chờ gì nữa hỡi Lexus?">
+								</a>
+							</div>
+							<div class="library-item col-md-6" style="height: 100px; width: 100%;padding: 0px;">
+								<a href="news-item.html" class="title-news">Lexus LC Convertible Concept: Còn chờ gì...<br></a>
+								<span class="date">
+									<span style="color: red;">
+										<img class="news-icon" src="images/clock.png">1/1/2019
+									</span>
+									<span style="color: red;">
+										<img class="news-icon" src="images/chat.png">1 Bình luận
+									</span>
+								</span>
+							</div>
+
+							<div class="library-item col-md-4" style="height: 100px; width: 90%;padding: 0px;">
+								<a href="news-item.html" title="Lexus LC Convertible Concept: Còn chờ gì nữa hỡi Lexus?">
+									<img class="news-img" src="http://thegioixehoi.delectech.vn/images/news/2019/01/12/resized/lexus-lc-convertible-concept-2-15472075478571522911135-crop-15472077540312137910_1547319275.jpg" alt="Lexus LC Convertible Concept: Còn chờ gì nữa hỡi Lexus?">
+								</a>
+							</div>
+							<div class="library-item col-md-6" style="height: 100px; width: 100%;padding: 0px;">
+								<a href="news-item.html" class="title-news">Lexus LC Convertible Concept: Còn chờ gì...<br></a>
+								<span class="date">
+									<span style="color: red;">
+										<img class="news-icon" src="images/clock.png">1/1/2019
+									</span>
+									<span style="color: red;">
+										<img class="news-icon" src="images/chat.png">1 Bình luận
+									</span>
+								</span>
+							</div>
+						</div>
+					</div>
+					<!-- tin nổi bật -->
+
+					<div class="col-md-4">
+						<div class="title-footer">
+							<img src="images/vach_03.png">
+							<span>THƯ VIỆN ẢNH</span>
+						</div>
+							<div class="row">
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- thư viện ảnh -->
+				</div>
+			</div>
+		</div>
+		<div id="booton-footer" class="container-fluid">
+			<ul id="quick-nav-footer">
+				<li><a href="index.html" title="Trang chủ">TRANG CHỦ</a></li>
+				<li><a href="category.html" title="Tìm mua ô tô">TÌM MUA Ô TÔ</a></li>
+				<li><a href="policy.html" title="Ch sách">CHÍNH SÁCH</a></li>
+				<li><a href="advisory.html" title="Tư vấn">TƯ VẤN</a></li>
+				<li><a href="service.html" title="Dịch vụ">DỊCH VỤ</a></li>
+				<li><a href="contact.html" title="Liên hệ">LIÊN HỆ</a></li>
+			</ul>
+		</div>
+		<!-- bootom-nav-menu -->
+	</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><img style="width: 20px;height:20px;top: 5px;" src="images/chevron-up.png"></button>
+	<!-- end footer -->
+</body>
+</html>

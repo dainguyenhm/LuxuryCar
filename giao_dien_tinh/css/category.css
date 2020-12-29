@@ -1,0 +1,100 @@
+a{
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+}
+.link-page{
+	margin-top: 15px;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+.index:hover{
+	color: black;
+}
+.index{
+	color: #8a8a8a;
+}
+.title-page{
+	color: red;
+}
+.title-page:hover{
+	color: red;
+}
+
+.left-category{
+	width: 95%;
+	height: auto;
+}
+
+.right-category{
+	padding-top: 20px;
+	padding-left: 20px;
+	width: 100%;
+	height: auto;
+}
+
+.inf-product{
+	font-style: italic;
+	font-weight: normal;
+	color: black;
+}
+
+#filter{
+	padding-top: 20px;
+	border-top:15px;
+	border: 10px;
+	background: black;
+	height: auto;
+	width: 95%;
+	padding-bottom: 20px;
+}
+#title-filter{
+	padding-left: 20px;
+	font-size: 18px;
+	width: 100%;
+	border-left: 7px solid red;
+	text-transform: uppercase;
+	color: white;
+}
+
+input[type="checkbox"]{
+	color: white;
+}
+
+#product-topical{
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top:15px;
+	border: 10px;
+	background: #e6e6e6;
+	height: auto;
+	width: 95%;
+	padding-bottom: 20px;
+}
+
+#title-filter{
+
+}
+
+#title-product-topical{
+	padding-left: 20px;
+	font-size: 18px;
+	width: 100%;
+	border-left: 7px solid red;
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+}
+
+.btn-topical-product{
+	margin-top: 10px;
+	border: 1px solid #00000094;
+	width: auto;
+	padding: 5px;
+	font-weight: normal;
+	color: #00000094;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 12px;
+}

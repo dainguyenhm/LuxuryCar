@@ -1,0 +1,40 @@
+p{
+	line-height: 2;
+	font-size: 16px;
+}
+a{
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+}
+h5{
+	font-weight: bold;
+}
+.link-page{
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.index:hover{
+	color: black;
+}
+.index{
+	color: #8a8a8a;
+}
+.title-page{
+	color: red;
+}
+.title-page:hover{
+	color: red;
+}
+
+.title-service{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}

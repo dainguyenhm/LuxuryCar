@@ -1,0 +1,17 @@
+.icon-address{
+	color: #e60000;
+	padding-right: 5px;
+}
+#address ul li{
+	color: #888888;
+	padding-top: 10px;
+	font-size: 16px;
+}
+.block-address{
+	font-weight: bold; text-transform: uppercase; font-size: 16px;
+}
+.contact-form label{
+	font-weight: bold;
+	font-size: 15px;
+}
+

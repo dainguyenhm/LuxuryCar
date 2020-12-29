@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dịch vụ chuẩn đoán lỗi</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	
+	<link rel="stylesheet" href="awesome-bootstrap-checkbox.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />	
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+	<link rel="shortcut icon" type="image/png" href="images/logo.jpg"/>
+
+	<link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
+	<script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel="stylesheet" type="text/css" href="css/service.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<script>
+		new WOW().init();
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    document.getElementById("myBtn").style.display = "block";
+		  } else {
+		    document.getElementById("myBtn").style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+	</script>
+</head>
+<body>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v4.0&appId=2326460500955252&autoLogAppEvents=1"></script>
+
+	<div id="header">
+		<div id="top-nav">
+			<div id="top-nav-content" class="container"> 
+				<div>
+					<div id="left-head">
+						<a href="#" title="chi nhánh">
+							<span><i class="fa fa-map-marker"></i></span>
+							<span>Chi nhánh rộng khắp</span>
+						</a>
+						<a href="#" style="padding-left: 10px;" title="điểm nổi bật">
+							<span><i class="fa fa-star"></i></span>
+							<span>Điểm nổi bật</span>
+						</a>
+						<a href="#" style="padding-left: 10px;" title="dịch vụ">
+							<span><i class="fa fa-users"></i></span>
+							<span>Dịch vụ chuyên nghiệp</span>
+						</a>
+					</div>
+
+					<div id="right-head">
+						<a href="#" ><span ><i class="fab fa-facebook"></i></span></a>
+						<a href="#" ><span ><i class="fab fa-google-plus"></i></span></a>
+						<a href="#" ><span ><i class="fab fa-twitter-square"></i></i></span></a>
+						<a href="registration.html">Đăng ký</a>
+						<a href="login.html">Đăng nhập</a>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<div id="top-nav-logo" class="container-fluid">
+		<div class="row">
+			<div class="col-md-3" style="text-align: center;width: 100%;">
+					<a href="index.html"><img src="images/logo.jpg" style="height: 90px; width: 150px;"></a>
+			</div>
+			<div class="col-md-9" style="background-color: black;border-radius: 0px 0px 0px 80px;">
+				<div class="container">
+					<div class="row" style="margin-top: 25px; ">
+						<div class="col-md-6">
+						</div>
+						<div class="col-md-3"> 	
+							<div class="row">
+								<img src="images/gio.png">
+								<span style="color: white; font-size: 14px;padding-left: 7px;">
+									Giờ làm việc<br>
+									<span class="time-text" title="giờ">8:00 - 17:00</span>
+								</span>
+							</div>
+						</div>
+						<div class="col-md-3"> 
+							<div class="row">
+								<img src="images/hotline.png">
+								<span style="color: white; font-size: 14px;padding-left: 7px;">
+									Hotline<br>
+									<span class="time-text" title="hotline">0436 369 898</span>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end header -->
+
+	<div id="top-nav-menu">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+	  		<div class="container">
+	  			<div class="row">
+	  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		   		 	<span class="navbar-toggler-icon"></span>
+		 		</button>
+
+			  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			   		<ul class="navbar-nav mr-auto">
+			      		<li class="nav-item"> 
+			        		<a class="nav-link" href="index.html" title="trang chủ">TRANG CHỦ</a>
+			      		</li>
+			      		<li class="nav-item dropdown">
+			        		<a class="nav-link dropdown-toggle" href="category.html" title="tìm mua ô tô">
+			          			TÌM MUA Ô TÔ
+			        		</a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          <a class="dropdown-item" href="category-item.html" title="mercedes">MERCEDES</a>
+					          <div class="dropdown-divider"></div>
+					          <a class="dropdown-item" href="category-item.html" title="lamborginis">LAMBORGHINIS</a>
+					          <div class="dropdown-divider"></div>
+					          <a class="dropdown-item" href="category-item.html" title="volvo">VOLVO</a>
+					          <div class="dropdown-divider"></div>
+					          <a class="dropdown-item" href="category-item.html" title="jaquar">JAQUAR</a>
+					          <div class="dropdown-divider"></div>
+					          <a class="dropdown-item" href="category-item.html" title="audi">AUDI</a>
+					          <div class="dropdown-divider"></div>
+					          <a class="dropdown-item" href="category-item.html" title="bmw">BMW</a>
+					        </div>
+			     		 </li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="policy.html" title="chính sách">CHÍNH SÁCH</a>
+			      		</li>
+			      		<li class="nav-item active">
+			        		<a class="nav-link" href="service.html" title="dịch vụ">DỊCH VỤ</a>
+			      		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="advisory.html" title="tư vấn">TƯ VẤN</a>
+			      		</li>
+			      		<li class="nav-item dropdown">
+			        		<a class="nav-link dropdown-toggle" href="news.html">
+			          			TIN TỨC
+			        		</a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          <a class="dropdown-item" href="news-car.html" title="tin xe hơi">TIN XE HƠI</a>
+					        </div>
+			     		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="introduce.html" title="hình ảnh">GIỚI THIỆU</a>
+			      		</li>
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="contact.html">LIÊN HỆ</a>
+			      		</li>
+			    	</ul>
+
+			    	<form class="search-box">
+				    		<input type="text" name="" class="search-txt" name="search" placeholder="Mời bạn nhập ..."/>
+				    		<button class="search-btn"><i class="fas fa-search"></i></button>
+				    </form>
+	  			</div>
+
+			  </div>
+	  		</div>
+		</nav>
+	</div>
+	<!-- end nav-menu -->
+	<div id="content" class="container-fluid" style="margin-bottom:50px; " >
+		<div class="container-fluid" style="background: #f6f6f6;">
+			<div class="container link-page" style="margin-top: 25px;">
+				<div class="row">
+					<div class="col-md-12">
+						<a href="index.html" class="index">Trang chủ</a>
+						<span>&nbsp;&rsaquo;&nbsp;</span>
+						<a href="service.html" class="index">Dịch vụ</a>
+						<span>&nbsp;&rsaquo;&nbsp;</span>
+						<a href="#" class="title-page">Chuẩn đoán lỗi</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row" class="all-description">
+				<div class="col-md-12">
+					<div class="title-content-detail" style="text-align: left;">
+						<img src="images/vach_03.png">
+						<span>Chuẩn đoán lỗi ô tô</span>
+					</div>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-md-12">
+					<h5>Chẩn đoán lỗi ô tô, đọc lỗi ô tô, khắc phục lỗi ô tô</h3>
+					<p>Việc chuẩn đoán lỗi ô tô, nhất là những đời ô tô mới ngày nay không chỉ đơn thuần là kinh nghiệm. Có rất nhiều lỗi nếu rất khó để tìm ra nguyên nhân, và nếu có tìm ra thì cũng phải mất khá nhiều thời gian để khắc phục. Vấn đề quan trọng nhất là phải bắt đúng “bệnh” của xe thì mới có phương pháp sửa chữa đúng đắn, nhằm bảo đảm việc sửa chữa nhanh chóng, hiệu quả.</p>
+					<p><img src="images/loi_oto.jpg"></p>
+					<p>Công việc chuẩn đoán lỗi bao gồm: chuẩn đoán lỗi động cơ xăng, động cơ dầu (common-rail), hệ thống lái, HT thắng ABS, HT thống ổn định chuyển động ESP/VSC, TCS (chống trượt quay khi lực kéo lớn hơn lực bám), HT SRS –Túi khí, HT treo – giảm sốc khí nén (Mercedes), HT truyền động (số tay và tự động), HT chiều sáng + chỉ thị …</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h5>Khi nào cần chuẩn đoán lỗi ô tô</h5>
+					<p>Khi bạn có nhu cầu mua xe nhưng lại không yên tâm về chất lượng cũng như độ bền, mức độ hư hại nếu có của các thiết bị điện tử. Hậu quả sẽ lớn hơn khi bạn lỡ mua phải chiếc xe bị lỗi và việc bỏ ra một khoản tiền lớn để sửa chữa là điều không ai mong muốn. Hơn hết không phải lúc nào cũng thuận tiện để bạn có thể đưa xe vào hãng test. Khi đó /điều bạn cần làm chính sử dụng ngay dịch vụ chuẩn đoán lỗi ô tô.Ngoài ra, đối với những chiếc ô tô dùng lâu năm, việc xuất hiện những lỗi phần mềm trong hộp điều khiển ECU hoặc là những hỏng hóc của những cảm biến, chi tiết đơn giản trên xe là điều thường gặp. Nó không chỉ gây ra những phiền toái khó chịu cho người lái xe khi các bộ phận trong hệ thống điều khiển trên xe luôn bị làm việc sai tiêu chuẩn về thông số kỹ thuật. Từ đó gây ra những triệu chứng như tốn nhiên liệu hơn , hệ thống làm mát lỗi động cơ bị nóng bất thường , …</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row comment">
+			<div class="col-md-4">
+				<span class="block-comment">đánh giá - bình luận</span>
+			</div>
+		</div>
+	</div>
+	<div class="container" style="background-color: #f7f7f7;">
+		<form action="send_comment_process.php" method="post">
+			<div class="row" style="padding-top: 30px;">
+				<div class="col-md-2">
+					<span class="block-comment-1">Nhận xét và đánh giá:</span>		
+		    	</div>
+		    	<div class="col-md-1">
+		    		<div class="starrating risingstar d-flex  flex-row-reverse">
+			            <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="5 star"></label>
+			            <input type="radio" id="star4" name="rating" value="4" checked="true" /><label for="star4" title="4 star"></label>
+			            <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="3 star"></label>
+			            <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="2 star"></label>
+			            <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="1 star"></label>
+			        </div>
+		    	</div>
+		    	<div class="col-md-1">
+		    		<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+		    	</div>
+			</div>
+			<div class="row send-comment">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-12"><textarea name="txtContent" rows="5" class="form-control" placeholder="Viết bình luận của bạn..."></textarea></div>
+					</div>
+					<div class="row" style="margin-top: 20px;">
+						<div class="col-md-12">
+							<input type="submit" name="btnSubmitComment" class="btn btn-danger" value="Gửi nhận xét">
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class="container">
+		<div class="row plugins-comment">
+			<div class="col-md-12">
+				<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="1000" data-numposts="5"></div>			
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid" style="width: 100%; height: auto;background: black;text-align: center;padding: 30px;margin-top: 20px;">
+		<div style="color: white;font-size: 19px;font-weight: bold;">ĐẶT LỊCH SỬA CHỮA ĐỂ ĐƯỢC PHỤC VỤ SỚM NHẤT</div>
+		<div style="color: #949191;">
+			<span>Chúng tôi cam kết sẽ mang đến sự hoàn hảo cho chiếc xe của bạn với các</span><br><span>chuyên gia lâu năm được đào tạo chuyên nghiệp.</span>		
+		</div>
+		<div style="padding-top:10px; ">
+			<a href="book-service.html" class="btn btn-danger" style="background: #E60000;text-transform: uppercase;">Hãy trải nghiệm</a>
+		</div>
+	</div>
+
+	<div id="footer" class="container-fluid">
+		<div class="container-fluid" id="footer-link">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="title-footer">
+							<img src="images/vach_03.png">
+							<span>LUXURY CAR</span>
+						</div>
+						<ul id="top-botton">
+							<li class="icon">
+								<img class="item-icon" src="images/home.png">
+								<span class="title-icon">VĂN PHÒNG</span>
+								<div style="padding-left:30px; ">
+									Add: Số 17 Trung Yên 12-Cầu Giấy-Hà Nội
+									<div id="hotline">
+										<a class="hotline-item" href="tel:0436 396 898" title="Call now">Hotline: 0436 396 898 - </a>
+										<a class="hotline-item" href="tel:01269 688 688" title="Call now">01269 688 688</a>
+									</div>
+								</div>
+							</li>
+							<li class="icon">
+								<img class="item-icon" src="images/place.png">
+								<span class="title-icon">CHI NHÁNH</span>
+								<div style="padding-left: 30px">Chúng tôi đang mở thêm chi nhánh ở TP Hồ Chí Minh và Đà Nẵng</div>
+							</li>
+						</ul>		
+					</div>
+					<!-- luxury car -->
+					<div class="col-md-4">
+						<div class="title-footer">
+							<img src="images/vach_03.png">
+							<span>TIN NỔI BẬT</span>
+						</div>
+						<div class="news-item row">
+							<div class="col-md-4 library-item" style="height: 100px; width: 90%;padding: 0px;">
+								<a href="news-item.html" title="Lexus LC Convertible Concept: Còn chờ gì nữa hỡi Lexus?">
+									<img class="news-img" src="http://thegioixehoi.delectech.vn/images/news/2019/01/12/resized/lexus-lc-convertible-concept-2-15472075478571522911135-crop-15472077540312137910_1547319275.jpg" alt="Lexus LC Convertible Concept: Còn chờ gì nữa hỡi Lexus?">
+								</a>
+							</div>
+							<div class="col-md-6 library-item" style="height: 100px; width: 100%;padding: 0px;">
+								<a href="news-item.html" class="title-news">Lexus LC Convertible Concept: Còn chờ gì...<br></a>
+								<span class="date">
+									<span style="color: red;">
+										<img class="news-icon" src="images/clock.png">1/1/2019
+									</span>
+									<span style="color: red;">
+										<img class="news-icon" src="images/chat.png">1 Bình luận
+									</span>
+								</span>
+							</div>
+
+							<div class="library-item col-md-4" style="height: 100px; width: 90%;padding: 0px;">
+								<a href="news-item.html" title="Lexus LC Convertible Concept: Còn chờ gì nữa hỡi Lexus?">
+									<img class="news-img" src="http://thegioixehoi.delectech.vn/images/news/2019/01/12/resized/lexus-lc-convertible-concept-2-15472075478571522911135-crop-15472077540312137910_1547319275.jpg" alt="Lexus LC Convertible Concept: Còn chờ gì nữa hỡi Lexus?">
+								</a>
+							</div>
+							<div class=" col-md-6 library-item" style="height: 100px; width: 100%;padding: 0px;">
+								<a href="news-item.html" class="title-news">Lexus LC Convertible Concept: Còn chờ gì...<br></a>
+								<span class="date">
+									<span style="color: red;">
+										<img class="news-icon" src="images/clock.png">1/1/2019
+									</span>
+									<span style="color: red;">
+										<img class="news-icon" src="images/chat.png">1 Bình luận
+									</span>
+								</span>
+							</div>
+						</div>
+					</div>
+					<!-- tin nổi bật -->
+
+					<div class="col-md-4">
+						<div class="title-footer">
+							<img src="images/vach_03.png">
+							<span>THƯ VIỆN ẢNH</span>
+						</div>
+							<div class="row">
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+								<div class="library-item col-md-3" style="height: 100px; width: 90px;padding: 0px;">
+									<img class="img-library" src="http://thegioixehoi.delectech.vn/images/collection/resized/1_1547190393.jpg">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- thư viện ảnh -->
+				</div>
+			</div>
+		</div>
+		<div id="booton-footer" class="container-fluid">
+			<ul id="quick-nav-footer">
+				<li><a href="index.html" title="Trang chủ">TRANG CHỦ</a></li>
+				<li><a href="category.html" title="Tìm mua ô tô">TÌM MUA Ô TÔ</a></li>
+				<li><a href="policy.html" title="Ch sách">CHÍNH SÁCH</a></li>
+				<li><a href="advisory.html" title="Tư vấn">TƯ VẤN</a></li>
+				<li><a href="service.html" title="Dịch vụ">DỊCH VỤ</a></li>
+				<li><a href="contact.html" title="Liên hệ">LIÊN HỆ</a></li>
+			</ul>
+		</div>
+		<!-- bootom-nav-menu -->
+	</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><img style="width: 20px;height:20px;top: 5px;" src="images/chevron-up.png"></button>
+	<!-- end footer -->
+</body>
+</html>
